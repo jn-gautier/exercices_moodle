@@ -50,7 +50,7 @@ if __name__=="__main__":
      f.write('<!-- question: 0  -->\n')
      f.write('<question type="category">\n')
      f.write('<category>\n')
-     f.write('<text>Défaut pour math 3TQ/Addition et soustraction entre entiers</text>\n')
+     f.write('<text>$course$/Addition et soustraction entre entiers</text>\n')
      f.write('</category>\n')
      f.write('</question>\n')
      
