@@ -38,7 +38,6 @@ if __name__=="__main__":
      questionnaire=[]
      for i in range(100):
          question=Calcul()
-         print (question.enonce,question.reponse)
          questionnaire.append(question)
          
      
