@@ -4,17 +4,16 @@
 import random
 import math
 
-     
-     #
 class Triangle:
      """Un triangle est déterminé par la longueur de ses trois côtés. Le premier sommet se trouve aux coordonnées (0,0). 
-     les coordonnées des autres sommets sont déterminées à partir des côtés et du premier sommet."""
+     les coordonnées des autres sommets sont déterminées à partir de la longueur des autres côtés et des coordonnée du premier sommet."""
      def __init__(self):
          self.numero=0
-         self.coteAC=random.randint(1,5)
-         self.coteAB=random.randint(1,7)
-         self.coteBC=math.sqrt(self.coteAC**2+self.coteAB**2)
-         self.coteBC=round(self.coteBC,4)
+         multiplicateur=float(random.randint(1,500))/10
+         
+         self.coteAC=round(3*multiplicateur,4)
+         self.coteAB=round(4*multiplicateur,4)
+         self.coteBC=round(5*multiplicateur,4)
          
          self.xA=0
          self.yA=0
@@ -33,7 +32,7 @@ class Triangle:
          self.sommets.remove(self.B)
          self.C=random.choice(self.sommets)
          
-         self.ponderateur=random.choice([[0.4,0.5,0.7,0.8],[0.5,0.7,0.8,1.1],[0.7,0.8,1.1,1.2],[0.8,1.1,1.2,1.4],[1.1,1.2,1.4,1.6]])
+         self.list_fact_faux=random.choice([[0.4,0.5,0.7,0.8],[0.5,0.7,0.8,1.1],[0.7,0.8,1.1,1.2],[0.8,1.1,1.2,1.4],[1.1,1.2,1.4,1.6]])
         
      def exe_1(self):
          self.enonce='<script type="text/javascript" src="http://www.vf-bxl-moodle.be/lib/jsxgraph/jsxgraphcore.js"> </script>'
@@ -61,18 +60,16 @@ class Triangle:
          self.reponse="<p>\(%s%s=%s cm\)</p>"%(self.B,self.C,self.coteBC)
          
          self.reponses_fausses=[]
-         for facteur in self.ponderateur:
+         for facteur in self.list_fact_faux:
              self.reponses_fausses.append("<p>\(%s%s=%s cm\)</p>"%(self.B,self.C,round(self.coteBC*facteur,4)))
          
          
      def exe_2(self):
-         self.coteAB=random.randint(1,5)
-         self.coteBC=random.randint(2,7)
-         while self.coteBC<=self.coteAB:
-             self.coteBC=random.randint(2,7)
+         multiplicateur=float(random.randint(1,500))/10
+         self.coteAC=round(3*multiplicateur,4)
+         self.coteAB=round(4*multiplicateur,4)
+         self.coteBC=round(5*multiplicateur,4)
          
-         self.coteAC=math.sqrt(self.coteBC**2-self.coteAB**2)
-         self.coteAC=round(self.coteAC,4)
      
          self.xA=float(0)
          self.yA=float(0)
