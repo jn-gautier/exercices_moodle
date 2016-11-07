@@ -1,6 +1,12 @@
 #! /usr/bin/python3
 # -*- coding: utf-8 -*- 
 
+"""Il y a pas mal de chses à changer dans ce script.
+Il faudrait générer à chaque fois les deux fichiers : dec=>frac et frac=>dec.
+Modifier l'algo de simplification pour utiliser euclide.
+Modifier la présentation du code latex afin de supprimer les $$ et les remplacer par des \( \) .
+"""
+
 import random
 import math
 
