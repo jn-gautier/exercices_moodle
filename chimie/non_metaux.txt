@@ -1,0 +1,7 @@
+soufre	S	32	2	sulf	2	4	6
+phosphore	P	31	3	phosph	3	5
+fluor	F	19	1	fluor	1
+chlore	Cl	35	1	chlor	1	4	6	7
+brome	Br	80	1	brom	1	4
+iode	I	127	1	iod	5
+azote	N	14	3	azot	1	2	3	4	5

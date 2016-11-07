@@ -1,0 +1,100 @@
+helloSel ternaire	MXO	K2SO4	K_{2}SO{_4}	sulfate de potassium	142
+Oxyde non-métalique	XO	I2O5	I_{2}O_{5}	hémipentoxyde d'iode	334
+Sel ternaire	MXO	NaClO2	NaClO{_2}	chlorite de sodium	90
+Oxyde non-métalique	XO	Cl2O	Cl_{2}O	hémioxyde de chlore	86
+Oxyde métalique	MO	CuO	CuO	oxyde de cuivre(II)	80
+Sel ternaire	MXO	Na3PO4	Na_{3}PO{_4}	phosphate de sodium	164
+Oxyde non-métalique	XO	ClO2	ClO_{2}	dioxyde de chlore	67
+Acide binaire	HX	HCl	HCl	acide chlorhydrique	36
+Oxyde métalique	MO	Zn2O	Zn_{2}O	oxyde de zinc(I)	146
+Base	MOH	Mn(OH)3	Mn(OH)_{3}	hydroxyde de manganèse(III)	106
+Acide ternaire	HXO	H3PO4	H_{3}PO{_4}	acide phosphorique	98
+Acide ternaire	HXO	HNO3	HNO{_3}	acide nitrique	63
+Base	MOH	Ca(OH)2	Ca(OH)_{2}	hydroxyde de calcium	74
+Acide binaire	HX	HBr	HBr	acide bromhydrique	81
+Oxyde métalique	MO	MgO	MgO	oxyde de magnésium	40
+Sel ternaire	MXO	Fe(NO2)3	Fe(NO{_2})_{3}	nitrite de fer(III)	194
+Sel ternaire	MXO	FeClO3	FeClO{_3}	chlorate de fer(I)	139
+Acide binaire	HX	H2S	H_{2}S	acide sulfhydrique	34
+Oxyde métalique	MO	FeO	FeO	oxyde de fer(II)	72
+Base	MOH	Mg(OH)2	Mg(OH)_{2}	hydroxyde de magnésium	58
+Sel binaire	MX	NaCl	NaCl	chlorure de sodium	58
+Sel binaire	MX	Zn3P2	Zn_{3}P_{2}	phosphure de zinc(II)	257
+Oxyde métalique	MO	ZnO	ZnO	oxyde de zinc(II)	81
+Sel binaire	MX	FeBr2	FeBr_{2}	bromure de fer(II)	216
+Oxyde métalique	MO	Al2O3	Al_{2}O_{3}	oxyde d'aluminium	102
+Oxyde métalique	MO	K2O	K_{2}O	oxyde de potassium	94
+Sel binaire	MX	AlF3	AlF_{3}	fluorure d'aluminium	84
+Base	MOH	K(OH)	KOH	hydroxyde de potassium	56
+Acide ternaire	HXO	HClO3	HClO{_3}	acide chlorique	84
+Acide binaire	HX	HF	HF	acide fluorhydrique	20
+Sel binaire	MX	FeCl2	FeCl_{2}	chlorure de fer(II)	126
+Sel binaire	MX	LiF	LiF	fluorure de lithium	26
+Oxyde non-métalique	XO	Br2O	Br_{2}O	hémioxyde de brome	176
+Oxyde non-métalique	XO	BrO2	BrO_{2}	dioxyde de brome	112
+Sel binaire	MX	Cu3P	Cu_{3}P	phosphure de cuivre(I)	223
+Oxyde métalique	MO	CaO	CaO	oxyde de calcium	56
+Sel ternaire	MXO	ZnSO4	ZnSO{_4}	sulfate de zinc(II)	129
+Acide ternaire	HXO	HNO2	HNO{_2}	acide nitreux	47
+Base	MOH	Cu(OH)2	Cu(OH)_{2}	hydroxyde de cuivre(II)	98
+Acide binaire	HX	H3P	H_{3}P	acide phosphydrique	34
+Sel ternaire	MXO	KClO2	KClO{_2}	chlorite de potassium	106
+Oxyde non-métalique	XO	SO3	SO_{3}	trioxyde de soufre	80
+Base	MOH	Fe(OH)	FeOH	hydroxyde de fer(I)	73
+Sel binaire	MX	MnBr3	MnBr_{3}	bromure de manganèse(III)	295
+Sel ternaire	MXO	Al(NO2)3	Al(NO{_2})_{3}	nitrite d'aluminium	165
+Acide ternaire	HXO	HClO2	HClO{_2}	acide chloreux	68
+Oxyde non-métalique	XO	F2O	F_{2}O	hémioxyde de fluor	54
+Sel binaire	MX	CuS	CuS	sulfure de cuivre(II)	96
+Sel binaire	MX	Ca3P2	Ca_{3}P_{2}	phosphure de calcium	182
+Base	MOH	Fe(OH)2	Fe(OH)_{2}	hydroxyde de fer(II)	90
+Base	MOH	Zn(OH)	ZnOH	hydroxyde de zinc(I)	82
+Oxyde non-métalique	XO	P2O5	P_{2}O_{5}	hémipentoxyde de phosphore	142
+Acide binaire	HX	HI	HI	acide iodhydrique	128
+Base	MOH	Li(OH)	LiOH	hydroxyde de lithium	24
+Sel ternaire	MXO	Cu2SO3	Cu_{2}SO{_3}	sulfite de cuivre(I)	208
+Sel binaire	MX	KF	KF	fluorure de potassium	58
+Oxyde métalique	MO	Cu2O	Cu_{2}O	oxyde de cuivre(I)	144
+Base	MOH	Al(OH)3	Al(OH)_{3}	hydroxyde d'aluminium	78
+Sel binaire	MX	CaS	CaS	sulfure de calcium	72
+Sel ternaire	MXO	Fe3(PO4)2	Fe_{3}(PO{_4})_{2}	phosphate de fer(II)	358
+Sel ternaire	MXO	Al(NO3)3	Al(NO{_3})_{3}	nitrate d'aluminium	213
+Sel binaire	MX	NaI	NaI	iodure de sodium	150
+Sel binaire	MX	CaCl2	CaCl_{2}	chlorure de calcium	110
+Oxyde non-métalique	XO	N2O5	N_{2}O_{5}	hémipentoxyde d'azote	108
+Oxyde non-métalique	XO	P2O3	P_{2}O_{3}	hémitrioxyde de phosphore	110
+Acide ternaire	HXO	H2SO3	H_{2}SO{_3}	acide sulfureux	82
+Sel binaire	MX	CaF2	CaF_{2}	fluorure de calcium	78
+Sel ternaire	MXO	FeSO3	FeSO{_3}	sulfite de fer(II)	136
+Oxyde non-métalique	XO	NO	NO	monoxyde d'azote	30
+Sel binaire	MX	CuI	CuI	iodure de cuivre(I)	191
+Acide ternaire	HXO	H2CO3	H_{2}CO{_3}	acide carbonique	62
+Base	MOH	Na(OH)	NaOH	hydroxyde de sodium	40
+Oxyde métalique	MO	Fe2O	Fe_{2}O	oxyde de fer(I)	128
+Oxyde non-métalique	XO	SO	SO	monoxyde de soufre	48
+Oxyde non-métalique	XO	N2O	N_{2}O	hémioxyde d'azote	44
+Sel ternaire	MXO	Fe2CO3	Fe_{2}CO{_3}	carbonate de fer(I)	172
+Sel ternaire	MXO	FeClO2	FeClO{_2}	chlorite de fer(I)	123
+Sel ternaire	MXO	Fe2SO4	Fe_{2}SO{_4}	sulfate de fer(I)	176
+Sel binaire	MX	MnF2	MnF_{2}	fluorure de manganèse(II)	93
+Sel ternaire	MXO	Li2CO3	Li_{2}CO{_3}	carbonate de lithium	74
+Sel binaire	MX	FeCl3	FeCl_{3}	chlorure de fer(III)	161
+Sel ternaire	MXO	K3PO4	K_{3}PO{_4}	phosphate de potassium	212
+Sel ternaire	MXO	MgSO3	MgSO{_3}	sulfite de magnésium	104
+Sel ternaire	MXO	Al2(SO3)3	Al_{2}(SO{_3})_{3}	sulfite d'aluminium	294
+Sel binaire	MX	Fe2S3	Fe_{2}S_{3}	sulfure de fer(III)	208
+Sel binaire	MX	MnI3	MnI_{3}	iodure de manganèse(III)	436
+Sel binaire	MX	AlP	AlP	phosphure d'aluminium	58
+Base	MOH	Fe(OH)3	Fe(OH)_{3}	hydroxyde de fer(III)	107
+Sel binaire	MX	ZnCl	ZnCl	chlorure de zinc(I)	100
+Sel binaire	MX	Fe3P2	Fe_{3}P_{2}	phosphure de fer(II)	230
+Sel binaire	MX	ZnI2	ZnI_{2}	iodure de zinc(II)	319
+Base	MOH	Mn(OH)2	Mn(OH)_{2}	hydroxyde de manganèse(II)	89
+Sel ternaire	MXO	Cu2CO3	Cu_{2}CO{_3}	carbonate de cuivre(I)	188
+Acide ternaire	HXO	H2SO4	H_{2}SO{_4}	acide sulfurique	66
+Sel ternaire	MXO	LiClO2	LiClO{_2}	chlorite de lithium	74
+Oxyde métalique	MO	MnO	MnO	oxyde de manganèse(II)	71
+Sel binaire	MX	K3P	K_{3}P	phosphure de potassium	148
+Oxyde métalique	MO	Mn2O3	Mn_{2}O_{3}	oxyde de manganèse(III)	158
+Sel ternaire	MXO	Li2SO4	Li_{2}SO{_4}	sulfate de lithium	78
+Sel ternaire	MXO	Li3PO4	Li_{3}PO{_4}	phosphate de lithium	116
