@@ -163,7 +163,7 @@ if __name__=="__main__":
              f.write('<quiz>  \n')
              f.write('<question type="category">  \n')
              f.write('<category>  \n')
-             f.write('<text>$course$/Défaut pour math 3TQ/Conversion des fractions et des décimaux</text>  \n')
+             f.write('<text>$course$/Conversion des fractions et des décimaux</text>  \n')
              f.write('</category>  \n')
              f.write('</question>  \n')
              for question in questionnaire:
