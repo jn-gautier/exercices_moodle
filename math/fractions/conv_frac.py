@@ -8,7 +8,6 @@ Modifier la présentation du code latex afin de supprimer les $$ et les remplace
 """
 
 import random
-import math
 
 
 class Fraction:
