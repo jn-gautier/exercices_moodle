@@ -2,10 +2,6 @@
 # -*- coding: utf-8 -*- 
 
 import random
-import math
-import copy
-import subprocess
-#from fractions import Fraction
 
 class Fraction:
      def __init__(self):

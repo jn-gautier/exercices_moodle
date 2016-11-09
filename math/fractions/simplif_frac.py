@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*- 
 
 import random
-import math
 
 
 class Fraction:
