@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="category">
+<category>
+<text>$course$/Équation et graphique(II)</text>
+</category>
+</question>
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*3+(1);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=1</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut monter de 3 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=3.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=3x+1 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=3x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-3x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=3x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-3x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*-1+(-2);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-2</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut descendre de 1 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=-1.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=-1x--2 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x-2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x-2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x+2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x+2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*1+(-2);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-2</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut monter de 1 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=1.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=1x--2 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x-2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x-2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x+2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x+2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*-1+(-1);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-1</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut descendre de 1 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=-1.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=-1x--1 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*4+(2);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=2</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut monter de 4 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=4.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=4x+2 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=4x+2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-4x+2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=4x-2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-4x-2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*1+(-3);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-3</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut monter de 1 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=1.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=1x--3 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x-3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x-3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x+3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x+3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*2+(-2);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-2</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut monter de 2 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=2.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=2x--2 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=2x-2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-2x-2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=2x+2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-2x+2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*-5+(2);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=2</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut descendre de 5 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=-5.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=-5x+2 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=-5x+2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=5x+2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-5x-2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=5x-2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*-5+(1);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=1</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut descendre de 5 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=-5.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=-5x+1 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=-5x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=5x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-5x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=5x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*5+(4);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=4</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut monter de 5 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=5.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=5x+4 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=5x+4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-5x+4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=5x-4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-5x-4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*-5+(-5);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-5</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut descendre de 5 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=-5.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=-5x--5 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=-5x-5 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=5x-5 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-5x+5 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=5x+5 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*1+(3);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=3</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut monter de 1 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=1.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=1x+3 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x+3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x+3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x-3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x-3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*-1+(4);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=4</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut descendre de 1 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=-1.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=-1x+4 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x+4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x+4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x-4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x-4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*3+(-1);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-1</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut monter de 3 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=3.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=3x--1 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=3x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-3x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=3x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-3x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*-2+(-4);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-4</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut descendre de 2 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=-2.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=-2x--4 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=-2x-4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=2x-4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-2x+4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=2x+4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*1+(-1);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-1</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut monter de 1 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=1.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=1x--1 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*1+(-3);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-3</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut monter de 1 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=1.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=1x--3 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x-3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x-3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x+3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x+3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*-1+(1);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=1</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut descendre de 1 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=-1.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=-1x+1 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*-5+(-1);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-1</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut descendre de 5 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=-5.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=-5x--1 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=-5x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=5x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-5x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=5x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*4+(4);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=4</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut monter de 4 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=4.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=4x+4 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=4x+4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-4x+4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=4x-4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-4x-4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*5+(-4);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-4</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut monter de 5 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=5.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=5x--4 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=5x-4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-5x-4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=5x+4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-5x+4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*-3+(4);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=4</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut descendre de 3 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=-3.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=-3x+4 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=-3x+4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=3x+4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-3x-4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=3x-4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*-1+(4);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=4</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut descendre de 1 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=-1.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=-1x+4 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x+4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x+4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x-4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x-4 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*-5+(-3);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-3</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut descendre de 5 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=-5.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=-5x--3 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=-5x-3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=5x-3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-5x+3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=5x+3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*-2+(3);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=3</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut descendre de 2 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=-2.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=-2x+3 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=-2x+3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=2x+3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-2x-3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=2x-3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*-2+(5);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=5</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut descendre de 2 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=-2.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=-2x+5 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=-2x+5 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=2x+5 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-2x-5 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=2x-5 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*-1+(-2);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-2</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut descendre de 1 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=-1.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=-1x--2 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x-2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x-2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-1x+2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=1x+2 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*2+(-3);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-3</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut monter de 2 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=2.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=2x--3 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=2x-3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-2x-3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=2x+3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-2x+3 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*3+(-1);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=-1</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut monter de 3 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=3.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=3x--1 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=3x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-3x-1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=3x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-3x+1 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+<question type="multichoice">  
+<name>  
+<text>Trouver l'équation à partir du graphique</text>  
+</name>  
+<questiontext format="html">  
+<text><![CDATA[<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script><p>Quelle est l'équation de la droite se trouvant dans le repère ci-dessous?</p><div id="box_0" class="jxgbox" style="width:350px; height:350px;"></div><script type="text/javascript">JXG.Options.axis.ticks.drawLabels = true;var board = JXG.JSXGraph.initBoard('box_0', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});xaxis = board.create('axis', [[0, 0], [1,0]], {name:'x', withLabel: true,label: {position: 'rt'}});yaxis = board.create('axis', [[0, 0], [0,1]], {name:'y', withLabel: true,label: {position: 'rt'}});var f = board.create('functiongraph', [function(x){return x*3+(5);}],{strokeWidth:1});</script>]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[<p>La valeur de l'ordonnée à l'origine (p) se lit directement sur le graphique. <br/>p=5</p><p>Lorsqu'on avance d'une unité dans le sens des X croissants (vers la droite), il faut monter de 3 unité(s) pour retrouver le graphique.<br/>La valeur de la pente est donc : m=3.</p><p>Par conséquent, l'équation de la fonction est : \(F isequiv y=3x+5 \)</p>]]></text>  
+</generalfeedback>  
+<defaultgrade>1.0000000</defaultgrade>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+<single>true</single>   
+<shuffleanswers>true</shuffleanswers>  
+<answernumbering>abc</answernumbering>  
+<shownumcorrect/>  
+<answer fraction="100" format="html">  
+<text><![CDATA[<p>\(F isequv y=3x+5 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-3x+5 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=3x-5 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+<answer fraction="0" format="html">  
+<text><![CDATA[<p>\(F isequv y=-3x-5 \)</p>]]></text>  
+<feedback format="html">  
+<text></text>  
+</feedback>  
+</answer>  
+</question>  
+</quiz>

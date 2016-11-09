@@ -82,19 +82,23 @@ class Molecule():
         if choix==6 : self.exe_6()
         if choix==7 : self.exe_7()
         if choix==8 : self.exe_8()
+        if choix==9 : self.exe_9()
         
         #
     
     def exe_1(self):
         self.type_exe='cloze'
+        self.num_exe=1
         if self.simple==0:
             self.text_sup=', \(%s\),'%self.latex
         else:
             self.text_sup=''
         
         self.enonce="<p>Quelle serait la concentration massique et la concentration molaire d'une solution obtenue en dissolvant une masse de \(%s [g]\) de %s%s dans un volume de \(%s %s\) d'eau?</p>"%(self.masse_latex,self.nom,self.text_sup,self.volume_latex,self.unites_volume)
-        self.enonce+="<p> \( C_{M}= \) {1:NUMERICAL:=%s:%s} \([mol \cdot L^{-1}]\) </p>"%(self.cc_molaire,self.cc_molaire*3/100)
-        self.enonce+="<p> \( \gamma= \) {1:NUMERICAL:=%s:%s} [g \cdot L^{-1}] </p>"%(self.cc_massique,self.cc_massique*3/100)
+        self.enonce+="<p> \( C_{M}= \) {1:NUMERICAL:=%s:%s} "%(self.cc_molaire,self.cc_molaire*3/100)
+        self.enonce+="{1:MC:[g/mol]~[mol]~[g]~[L]~[g/L]~=[mol/L]}</p>"
+        self.enonce+="<p> \( \gamma= \) {1:NUMERICAL:=%s:%s} "%(self.cc_massique,self.cc_massique*3/100)
+        self.enonce+="{1:MC:[g/mol]~[mol]~[g]~[L]~=[g/L]~[mol/L]}</p>"
         
         self.feedback="<p>Données<br/>"
         self.feedback+="Formule : \( %s \)<br/>"%self.latex
@@ -104,7 +108,7 @@ class Molecule():
         self.feedback+="\n"
         
         self.feedback+="<p>Inconnues<br/>"
-        self.feedback+="\(C_{M} \\et\\ \gamma \)"
+        self.feedback+="\(C_{M} \\ et \\ \gamma \)"
         self.feedback+="</p> \n"
         
         self.feedback+="<p>Équations<br/>"
@@ -124,24 +128,27 @@ class Molecule():
         Quelle serait la concentration massique et la concentration molaire d'une solution obtenue en dissolvant une quantité de #### [mol] de #### dans un volume de #### [L] d'eau?
         """
         self.type_exe='cloze'
+        self.num_exe=2
         if self.simple==0:
             self.text_sup=', \(%s\),'%self.latex
         else:
             self.text_sup=''
         
         self.enonce="<p>Quelle serait la concentration massique et la concentration molaire d'une solution obtenue en dissolvant une quantité de \(%s [mol]\) de %s%s dans un volume de \(%s %s\) d'eau?</p>"%(self.mole_latex,self.nom,self.text_sup,self.volume_latex,self.unites_volume)
-        self.enonce+="<p> \( C_{M}= \) {1:NUMERICAL:=%s:%s} \([mol \cdot L^{-1}]\) </p>"%(self.cc_molaire,self.cc_molaire*3/100)
-        self.enonce+="<p> \( \gamma= \) {1:NUMERICAL:=%s:%s} [g \cdot L^{-1}] </p>"%(self.cc_massique,self.cc_massique*3/100)
+        self.enonce+="<p> \( C_{M}= \) {1:NUMERICAL:=%s:%s} "%(self.cc_molaire,self.cc_molaire*3/100)
+        self.enonce+="{1:MC:[g/mol]~[mol]~[g]~[L]~[g/L]~=[mol/L]}</p>"
+        self.enonce+="<p> \( \gamma= \) {1:NUMERICAL:=%s:%s} "%(self.cc_massique,self.cc_massique*3/100)
+        self.enonce+="{1:MC:[g/mol]~[mol]~[g]~[L]~=[g/L]~[mol/L]}</p>"
         
         self.feedback="<p>Données<br/>"
         self.feedback+="Formule : \( %s \)<br/>"%self.latex
         self.feedback+="M=%s[\(g \cdot mol^{-1}\)] <br/>"%self.masse_molaire
-        self.feedback+="n=%s[mol] <br/>"%self.mole_latex
+        self.feedback+="\(n=%s[mol] \)<br/>"%self.mole_latex
         self.feedback+="\(V_{eau}=%s[L]\)</p>"%self.volume_litre_latex
         self.feedback+="\n"
         
         self.feedback+="<p>Inconnues<br/>"
-        self.feedback+="\(C_{M} \\et\\ \gamma \)"
+        self.feedback+="\(C_{M} \\ et \\ \gamma \)"
         self.feedback+="</p> \n"
         
         self.feedback+="<p>Équations<br/>"
@@ -159,15 +166,18 @@ class Molecule():
         """
         Dans quel volume d'eau faut-il dissoudre une masse de #### [g] pour préparer une solution dont la concentration molaire est de #### \([mol.L^{-1}]\)?
         """
-        self.type_exe='numerical'
+        self.num_exe=3
+        self.type_exe='cloze'
         if self.simple==0:
             self.text_sup=', \(%s\),'%self.latex
         else:
             self.text_sup=''
         
         self.enonce="<p>Dans quel volume d'eau faut-il dissoudre une masse de \(%s [g]\) de %s%s pour préparer une solution dont la concentration molaire est de \(%s [mol.L^{-1}]\)?</p>"%(self.masse_latex,self.nom,self.text_sup,self.cc_molaire_latex)
+        self.enonce+="<p>V= {1:NUMERICAL:=%s:%s}  "%(self.volume_litre,self.volume_litre*3/100)
+        self.enonce+="{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p>"
         
-        self.reponse=self.volume_litre
+        #self.reponse=self.volume_litre
         
         self.feedback="<p>Données<br/>"
         self.feedback+="Formule : \( %s \)<br/>"%self.latex
@@ -193,13 +203,16 @@ class Molecule():
         """
         Dans quel volume d'eau faut-il dissoudre une masse de #### [g] pour préparer une solution dont la concentration massique est de #### \([g.L^{-1}]\)?
         """
-        self.type_exe='numerical'
+        self.num_exe=4
+        self.type_exe='cloze'
         if self.simple==0:
             self.text_sup=', \(%s\),'%self.latex
         else:
             self.text_sup=''
         
         self.enonce="<p>Dans quel volume d'eau faut-il dissoudre une masse de \(%s [g]\) de %s%s pour préparer une solution dont la concentration massique est de \(%s [g.L^{-1}]\)?</p>"%(self.masse_latex,self.nom,self.text_sup,self.cc_massique_latex)
+        self.enonce+="<p>V= {1:NUMERICAL:=%s:%s}  "%(self.volume_litre,self.volume_litre*3/100)
+        self.enonce+="{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p>"
         
         self.reponse=self.volume_litre
         
@@ -224,19 +237,22 @@ class Molecule():
         """
         Dans quel volume d'eau faut-il dissoudre une quantité de #### [mol] pour préparer une solution dont la concentration molaire est de #### \([mol.L^{-1}]\)?
         """
-        self.type_exe='numerical'
+        self.num_exe=5
+        self.type_exe='cloze'
         if self.simple==0:
             self.text_sup=', \(%s\),'%self.latex
         else:
             self.text_sup=''
         
         self.enonce="<p>Dans quel volume d'eau faut-il dissoudre une quantité de \(%s [mol]\) de %s%s pour préparer une solution dont la concentration molaire est de \(%s [mol.L^{-1}]\)?</p>"%(self.mole_latex,self.nom,self.text_sup,self.cc_molaire_latex)
+        self.enonce+="<p>V= {1:NUMERICAL:=%s:%s}  "%(self.volume_litre,self.volume_litre*3/100)
+        self.enonce+="{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p>"
         
         self.reponse=self.volume_litre
         
         self.feedback="<p>Données<br/>"
         self.feedback+="Formule : \( %s \)<br/>"%self.latex
-        self.feedback+="n=%s[mol] <br/>"%self.mole_latex
+        self.feedback+="\(n=%s[mol] \)<br/>"%self.mole_latex
         self.feedback+="\(C_{M}=%s[mol \cdot L^{-1}]\)</p>"%self.cc_molaire_latex
         self.feedback+="\n"
         
@@ -255,19 +271,23 @@ class Molecule():
         """
         Dans quel volume d'eau faut-il dissoudre une quantité de #### [mol] pour préparer une solution dont la concentration massique est de #### \([g.L^{-1}]\)?
         """
-        self.type_exe='numerical'
+        self.num_exe=6
+        self.type_exe='cloze'
         if self.simple==0:
             self.text_sup=', \(%s\),'%self.latex
         else:
             self.text_sup=''
         
         self.enonce="<p>Dans quel volume d'eau faut-il dissoudre une quantité de \(%s [mol]\) de %s%s pour préparer une solution dont la concentration massique est de \(%s [g.L^{-1}]\)?</p>"%(self.mole_latex,self.nom,self.text_sup,self.cc_massique_latex)
+        self.enonce+="<p>V= {1:NUMERICAL:=%s:%s}  "%(self.volume_litre,self.volume_litre*3/100)
+        self.enonce+="{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p>"
         
         self.reponse=self.volume_litre
         
         self.feedback="<p>Données<br/>"
         self.feedback+="Formule : \( %s \)<br/>"%self.latex
-        self.feedback+="n=%s[mol] <br/>"%self.mole_latex
+        self.feedback+="M=%s[\(g \cdot mol^{-1}\)] <br/>"%self.masse_molaire
+        self.feedback+="\(n=%s[mol] \)<br/>"%self.mole_latex
         self.feedback+="\(\gamma=%s[g \cdot L^{-1}]\)</p>"%self.cc_massique_latex
         self.feedback+="\n"
         
@@ -289,19 +309,22 @@ class Molecule():
         """
         Quelle masse de #### faut-il dissoudre dans un volume de ### [L] d'eau pour préparer une solution dont la concentration massique est de #### \([g.L^{-1}]\)?
         """
-        self.type_exe='numerical'
+        self.num_exe=7
+        self.type_exe='cloze'
         if self.simple==0:
             self.text_sup=', \(%s\),'%self.latex
         else:
             self.text_sup=''
         
         self.enonce="<p>Quelle masse de %s%s faut-il utiliser pour préparer \(%s%s\) d'une solution dont la concentration massique est de \(%s [g.L^{-1}]\)?</p>"%(self.nom,self.text_sup,self.volume_latex,self.unites_volume,self.cc_massique_latex)
+        self.enonce+="<p>m= {1:NUMERICAL:=%s:%s}  "%(self.masse,self.masse*3/100)
+        self.enonce+="{1:MC:[g/mol]~[mol]~=[g]~[L]~[g/L]~[mol/L]}</p>"
         
         self.reponse=self.masse
         
         self.feedback="<p>Données<br/>"
         self.feedback+="Formule : \( %s \)<br/>"%self.latex
-        self.feedback+="\(V_{sol.} =%s[L] <br/>"%self.volume_litre_latex
+        self.feedback+="\(V_{sol.} =%s[L] \)<br/>"%self.volume_litre_latex
         self.feedback+="\(\gamma=%s[g \cdot L^{-1}]\)</p>"%self.cc_massique_latex
         self.feedback+="\n"
         
@@ -314,25 +337,29 @@ class Molecule():
         self.feedback+="\n"
         
         self.feedback+="<p>Résolution<br/>"
-        self.feedback+="\(m=\gamma \cdot V_{sol.} \\ \\rightarrow \\ m=%s[g]</p>"%self.masse_latex 
+        self.feedback+="\(m=\gamma \cdot V_{sol.} \\ \\rightarrow \\ m=%s[g]\)</p>"%self.masse_latex 
     
     def exe_8(self):
         """
         Quelle masse de #### faut-il dissoudre dans un volume de ### [L] d'eau pour préparer une solution dont la concentration molaire est de #### \([mol.L^{-1}]\)?
         """
-        self.type_exe='numerical'
+        self.num_exe=8
+        self.type_exe='cloze'
         if self.simple==0:
             self.text_sup=', \(%s\),'%self.latex
         else:
             self.text_sup=''
         
         self.enonce="<p>Quelle masse de %s%s faut-il utiliser pour préparer \(%s%s\) d'une solution dont la concentration molaire est de \(%s [mol.L^{-1}]\)?</p>"%(self.nom,self.text_sup,self.volume_latex,self.unites_volume,self.cc_molaire_latex)
+        self.enonce+="<p>m= {1:NUMERICAL:=%s:%s}  "%(self.masse,self.masse*3/100)
+        self.enonce+="{1:MC:[g/mol]~[mol]~=[g]~[L]~[g/L]~[mol/L]}</p>"
         
         self.reponse=self.masse
         
         self.feedback="<p>Données<br/>"
         self.feedback+="Formule : \( %s \)<br/>"%self.latex
-        self.feedback+="\(V_{sol.} =%s[L] <br/>"%self.volume_litre_latex
+        self.feedback+="M=%s[\(g \cdot mol^{-1}\)] <br/>"%self.masse_molaire
+        self.feedback+="\(V_{sol.} =%s[L] \)<br/>"%self.volume_litre_latex
         self.feedback+="\(C_{M} =%s[mol \cdot L^{-1}]\)</p>"%self.cc_molaire_latex
         self.feedback+="\n"
         
@@ -350,23 +377,27 @@ class Molecule():
         self.feedback+="\(m=n \cdot M \\ \\rightarrow \\ m=%s[g]\)</p>"%self.masse_latex
     
     
-    #def exe_9(self): pas fini
+    def exe_9(self):
         """
         Combien de moles de #### sont contenues dans un volume de ### [L] d'une solution dont la concentration massique est de #### \([g.L^{-1}]\)?
         """
-        self.type_exe='numerical'
+        self.num_exe=9
+        self.type_exe='cloze'
         if self.simple==0:
             self.text_sup=', \(%s\),'%self.latex
         else:
             self.text_sup=''
         
         self.enonce="<p>Combien de moles de %s%s sont contenues dans un volume de \(%s%s\) d'une solution dont la concentration massique est de \(%s [g.L^{-1}]\)?</p>"%(self.nom,self.text_sup,self.volume_latex,self.unites_volume,self.cc_massique_latex)
+        self.enonce+="<p>n= {1:NUMERICAL:=%s:%s}  "%(self.mole,self.mole*3/100)
+        self.enonce+="{1:MC:[g/mol]~=[mol]~[g]~[L]~[g/L]~[mol/L]}</p>"
         
-        self.reponse=self.masse
+        self.reponse=self.mole
         
         self.feedback="<p>Données<br/>"
         self.feedback+="Formule : \( %s \)<br/>"%self.latex
-        self.feedback+="\(V_{sol.} =%s[L] <br/>"%self.volume_litre_latex
+        self.feedback+="M=%s[\(g \cdot mol^{-1}\)] <br/>"%self.masse_molaire
+        self.feedback+="\(V_{sol.} =%s[L] \)<br/>"%self.volume_litre_latex
         self.feedback+="\(\gamma=%s[g \cdot L^{-1}]\)</p>"%self.cc_massique_latex
         self.feedback+="\n"
         
@@ -375,20 +406,51 @@ class Molecule():
         self.feedback+="</p> \n"
         
         self.feedback+="<p>Équation<br/>"
-        self.feedback+="\(\gamma=\\frac{m}{V_{sol.}} \\ \\rightarrow \\ m=\gamma \cdot V_{sol.}\)</p>"
+        self.feedback+="\(\gamma=\\frac{m}{V_{sol.}} \\ \\rightarrow \\ m=\gamma \cdot V_{sol.}\)<br/>"
         self.feedback+="\(n=\\frac{m}{M} \)</p>" 
         self.feedback+="\n"
         
         self.feedback+="<p>Résolution<br/>"
-        self.feedback+="\(m=\gamma \cdot V_{sol.} \\ \\rightarrow \\ m=%s[g]</p>"%self.masse_latex     
+        self.feedback+="\(m=\gamma \cdot V_{sol.} \\ \\rightarrow \\ m=%s[g] \)<br/>"%self.masse_latex
+        self.feedback+="\(n=\\frac{m}{M}  \\ \\rightarrow \\ n=%s[mol]\)</p>"%self.mole_latex
+        
+        
     def exe_10(self):
         """
         Combien de moles de #### sont contenues dans un volume de ### [L] d'une solution dont la concentration molaire est de #### \([mol.L^{-1}]\)?
         """
-        pass
+        self.num_exe=10
+        self.type_exe='cloze'
+        if self.simple==0:
+            self.text_sup=', \(%s\),'%self.latex
+        else:
+            self.text_sup=''
+        
+        self.enonce="<p>Combien de moles de %s%s sont contenues dans un volume de \(%s%s\) d'une solution dont la concentration molaire est de \(%s [mol.L^{-1}]\)?</p>"%(self.nom,self.text_sup,self.volume_latex,self.unites_volume,self.cc_molaire_latex)
+        self.enonce+="<p>n= {1:NUMERICAL:=%s:%s}  "%(self.mole,self.mole*3/100)
+        self.enonce+="{1:MC:[g/mol]~=[mol]~[g]~[L]~[g/L]~[mol/L]}</p>"
+        
+        self.reponse=self.mole
+        
+        self.feedback="<p>Données<br/>"
+        self.feedback+="Formule : \( %s \)<br/>"%self.latex
+        self.feedback+="\(V_{sol.} =%s[L] \)<br/>"%self.volume_litre_latex
+        self.feedback+="\(C_{M}=%s[mol \cdot L^{-1}]\)</p>"%self.cc_molaire_latex
+        self.feedback+="\n"
+        
+        self.feedback+="<p>Inconnue<br/>"
+        self.feedback+="\(n_{soluté} \)"
+        self.feedback+="</p> \n"
+        
+        self.feedback+="<p>Équation<br/>"
+        self.feedback+="\(C_{M}=\\frac{n}{V_{sol.}} \\ \\rightarrow \\ n=C_{M} \cdot V_{sol.}\)</p>"
+        self.feedback+="\n"
+        
+        self.feedback+="<p>Résolution<br/>"
+        self.feedback+="\(n=C_{M} \cdot V_{sol.} \\ \\rightarrow \\ n=%s[g] \)</p>"%self.mole_latex
+        
 
 
-#!!!!vérifier la présence de la masse molaire dans les données lorsque nécessaire!!!!!
 
 if __name__=="__main__":
      liste_molecules=[]
@@ -441,46 +503,28 @@ if __name__=="__main__":
      f.write("</category> \n")
      f.write("</question> \n")
      for question in questionnaire:
-         if question.type_exe=='cloze':
-             f.write('<question type="cloze"> \n')
-             f.write("<name> \n")
-             f.write("<text>Concentration massique et molaire</text> \n")
-             f.write("</name> \n")
-             f.write('<questiontext format="html"> \n')
-             f.write("<text><![CDATA[ %s ]]></text>  \n" %question.enonce)
-             f.write("</questiontext>  \n")
-             f.write('<generalfeedback format="html">  \n')
-             f.write("<text><![CDATA[ %s ]]></text>  \n" %question.feedback)
-             f.write("</generalfeedback>  \n")
-             f.write("<penalty>0.3333333</penalty>  \n")
-             f.write("<hidden>0</hidden>  \n")
-             f.write("</question>  \n")
-         if question.type_exe=='numerical':
-             f.write('<question type="numerical">\n')
-             f.write('<name>\n')
-             f.write('<text>Concentration massique et molaire</text>\n')
-             f.write('</name>\n')
-             f.write('<questiontext format="html">\n')
-             f.write('<text><![CDATA[%s]]></text>\n' %question.enonce)
-             f.write('</questiontext>\n')
-             f.write('<generalfeedback format="html">\n')
-             f.write("<text><![CDATA[ %s ]]></text>  \n" %question.feedback)
-             f.write('</generalfeedback>\n')
-             f.write('<defaultgrade>1.0000000</defaultgrade>\n')
-             f.write('<penalty>0.3333333</penalty>\n')
-             f.write('<hidden>0</hidden>\n')
-             f.write('<answer fraction="100" format="moodle_auto_format">\n')
-             f.write('<text>%s</text>\n'%question.reponse)
-             f.write('<feedback format="html">\n')
-             f.write('<text></text>\n')
-             f.write('</feedback>\n')
-             f.write('<tolerance>%s</tolerance>\n'%(0.03*question.reponse))
-             f.write('</answer>\n')
-             f.write('<unitgradingtype>0</unitgradingtype>\n')
-             f.write('<unitpenalty>0.1000000</unitpenalty>\n')
-             f.write('<showunits>3</showunits>\n')
-             f.write('<unitsleft>0</unitsleft>\n')
-             f.write('</question>\n')
+        f.write('<question type="cloze"> \n')
+        f.write("<name> \n")
+        f.write("<text>Concentration massique et molaire</text> \n")
+        f.write("</name> \n")
+        f.write('<questiontext format="html"> \n')
+        f.write("<text><![CDATA[ %s ]]></text>  \n" %question.enonce)
+        f.write("</questiontext>  \n")
+        f.write('<generalfeedback format="html">  \n')
+        f.write("<text><![CDATA[ %s ]]></text>  \n" %question.feedback)
+        f.write("</generalfeedback>  \n")
+        f.write("<penalty>0.3333333</penalty>  \n")
+        f.write("<hidden>0</hidden>  \n")
+        f.write("</question>  \n")
      f.write('</quiz>')
      f.close()
      
+     f = open('./exe_concentration_moodle.html','w')
+     for question in questionnaire:
+        f.write('<div>')
+        f.write('<p>%s</p> \n'%question.num_exe)
+        f.write(question.enonce+'\n')
+        
+        f.write(question.feedback+'\n')
+        f.write('</div> \n')
+     f.close()
