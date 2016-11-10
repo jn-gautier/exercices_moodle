@@ -1,0 +1,6 @@
+* produire des exercices sur les lois de Kirchoff, il y a peu de types différents à ce niveau
+(R-R-G ; R/R/G ; R-[R/R]-G ; R/[R-R]-G )
+la présentation des circuits pourrait se faire via du svg mais il faudrait pouvoir multiplier les présentations des circuits pour chaque type de circuits
+
+* un exercice de conversion des unités (kWh <=> J ; Ah,mAh <=> C ; ...)
+
