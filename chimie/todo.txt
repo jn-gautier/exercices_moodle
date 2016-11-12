@@ -1,1 +1,12 @@
 TODO
+vérifier et modifier les groupements OH : ils se mettent avec des parenthèses lorsqu'il n'y en a qu'un
+
+créer un exercice sur le simple calcul des masses molaires
+
+séparer les exercices : 
+* faire un scrpit qui génère le fichier des molécules avec nom, masse molaire, code latex, famille chimique
+* utiliser cette liste pour générer les réactions à pondérer et à complèter
+* utiliser cette liste pour les exercices de nomenclature
+
+A terme:
+ajouter les enthalpie de formation et les états (sol,liqu,gaz) dans la liste des molecules et utiliser ces infos pour générer des équations pour éviter les équation impossible au niveau thermodynamique 
