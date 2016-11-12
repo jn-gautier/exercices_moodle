@@ -518,13 +518,3 @@ if __name__=="__main__":
         f.write("</question>  \n")
      f.write('</quiz>')
      f.close()
-     
-     f = open('./exe_concentration_moodle.html','w')
-     for question in questionnaire:
-        f.write('<div>')
-        f.write('<p>%s</p> \n'%question.num_exe)
-        f.write(question.enonce+'\n')
-        
-        f.write(question.feedback+'\n')
-        f.write('</div> \n')
-     f.close()

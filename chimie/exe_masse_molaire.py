@@ -1,7 +1,7 @@
 #! /usr/bin/python3
 # -*- coding: utf-8 -*- 
+
 import random
-from copy import deepcopy,copy
 
 def convert_sci(nombre):
      nombre_sci='%.4E' %(nombre)
@@ -66,45 +66,61 @@ class Molecule():
     
     def exe_1(self):
         
-        self.type_exe='numerical'
+        self.type_exe='cloze'
         if self.simple==0:
             self.text_sup=', \(%s\),'%self.latex
         else:
             self.text_sup=''
         
         self.enonce="<p>Quelle est la masse de %s%s contenue dans \(%s [mol]\) de %s?</p>"%(self.nom,self.text_sup,self.mole_latex,self.nom)
+        self.enonce+="<p>m= {1:NUMERICAL:=%s:%s}  "%(self.masse,self.masse*3/100)
+        self.enonce+="{1:MC:[g/mol]~[mol]~=[g]}</p>"
         
         self.reponse=self.masse
         
         self.feedback="<p>Données<br/>"
         self.feedback+="Formule : \( %s \)<br/>"%self.latex
-        self.feedback+="M=%s[\(g \cdot mol^{-1}\)] <br/>"%self.masse_molaire
+        self.feedback+="\(M=%s[g \cdot mol^{-1}]\) <br/>"%self.masse_molaire
         self.feedback+="\(n=%s[mol]\) </p>"%self.mole_latex
+        self.feedback+="\n"
+        
+        self.feedback+="<p>Inconnue<br/>"
+        self.feedback+="m [g]</p>"
+        self.feedback+="\n"
         
         self.feedback+="<p>Équation<br/>"
         self.feedback+="\(n=\\frac{m}{M} \\ \\rightarrow \\ m=n \cdot M \)</p>"
+        self.feedback+="\n"
         
         self.feedback+="<p>Résolution<br/>"
         self.feedback+="\(m=n \cdot M \\ \\rightarrow \\ m=%s[g] \)</p>"%self.masse_latex
         
     def exe_2(self):
-        self.type_exe='numerical'
+        self.type_exe='cloze'
         if self.simple==0:
             self.text_sup=', \(%s\),'%self.latex
         else:
             self.text_sup=''
         
         self.enonce="<p>Combien de moles de %s%s y'a-t-il dans \(%s [g]\) de %s?</p>"%(self.nom,self.text_sup,self.masse_latex,self.nom)
+        self.enonce+="<p>m= {1:NUMERICAL:=%s:%s}  "%(self.mole,self.mole*3/100)
+        self.enonce+="{1:MC:[g/mol]~=[mol]~[g]}</p>"
         
         self.reponse=self.mole
         
         self.feedback="<p>Données<br/>"
         self.feedback+="Formule : \( %s \)<br/>"%self.latex
-        self.feedback+="M=%s[\(g \cdot mol^{-1}\)] <br/>"%self.masse_molaire
+        self.feedback+="\(M=%s[g \cdot mol^{-1}]\) <br/>"%self.masse_molaire
         self.feedback+="\(m=%s[g] \)</p>"%self.masse_latex
+        self.feedback+="\n"
+        
+        self.feedback+="<p>Inconnue<br/>"
+        self.feedback+="n [mol]</p>"
+        self.feedback+="\n"
         
         self.feedback+="<p>Équation<br/>"
         self.feedback+="\(n=\\frac{m}{M} \)</p>"
+        self.feedback+="\n"
         
         self.feedback+="<p>Résolution<br/>"
         self.feedback+="\(n=\\frac{m}{M} \\ \\rightarrow \\ n=%s[mol]\)</p>"%self.mole_latex
@@ -112,42 +128,56 @@ class Molecule():
         
     def exe_3(self):
         
-        self.type_exe='numerical'
+        self.type_exe='cloze'
         if self.simple==0:
             self.text_sup=', \(%s\),'%self.latex
         else:
             self.text_sup=''
         
         self.enonce="<p>On possède \(%s [mol]\) de %s%s ; quelle masse cela représente-t-il?</p>"%(self.mole_latex,self.nom,self.text_sup,)
+        self.enonce+="<p>m= {1:NUMERICAL:=%s:%s}  "%(self.masse,self.masse*3/100)
+        self.enonce+="{1:MC:[g/mol]~[mol]~=[g]}</p>"
         
         self.reponse=self.masse
         
         self.feedback="<p>Données<br/>"
         self.feedback+="Formule : \( %s \)<br/>"%self.latex
-        self.feedback+="M=%s[\(g \cdot mol^{-1}\)] <br/>"%self.masse_molaire
+        self.feedback+="\(M=%s[g \cdot mol^{-1}]\) <br/>"%self.masse_molaire
         self.feedback+="\(n=%s[mol]\) </p>"%self.mole_latex
+        self.feedback+="\n"
+        
+        self.feedback+="<p>Inconnue<br/>"
+        self.feedback+="m [g]</p>"
+        self.feedback+="\n"
         
         self.feedback+="<p>Équation<br/>"
         self.feedback+="\(n=\\frac{m}{M} \\ \\rightarrow \\ m=n \cdot M \)</p>"
+        self.feedback+="\n"
         
         self.feedback+="<p>Résolution<br/>"
         self.feedback+="\(m=n \cdot M \\ \\rightarrow \\ m=%s[g] \)</p>"%self.masse_latex
         
     def exe_4(self):
-        self.type_exe='numerical'
+        self.type_exe='cloze'
         if self.simple==0:
             self.text_sup=', \(%s\),'%self.latex
         else:
             self.text_sup=''
         
         self.enonce="<p>On possède \(%s [g]\) de %s%s ; combien de moles cela représente-t-il?</p>"%(self.masse_latex,self.nom,self.text_sup)
+        self.enonce+="<p>m= {1:NUMERICAL:=%s:%s}  "%(self.mole,self.mole*3/100)
+        self.enonce+="{1:MC:[g/mol]~=[mol]~[g]}</p>"
         
         self.reponse=self.mole
         
         self.feedback="<p>Données<br/>"
         self.feedback+="Formule : \( %s \)<br/>"%self.latex
-        self.feedback+="M=%s[\(g \cdot mol^{-1}\)] <br/>"%self.masse_molaire
+        self.feedback+="\(M=%s[g \cdot mol^{-1}]\) <br/>"%self.masse_molaire
         self.feedback+="\(m=%s[g] \)</p>"%self.masse_latex
+        
+        self.feedback+="<p>Inconnue<br/>"
+        self.feedback+="n [mol]</p>"
+        self.feedback+="\n"
         
         self.feedback+="<p>Équation<br/>"
         self.feedback+="\(n=\\frac{m}{M} \)</p>"
@@ -207,33 +237,18 @@ if __name__=="__main__":
      f.write("</category> \n")
      f.write("</question> \n")
      for question in questionnaire:
-         
-         if question.type_exe=='numerical':
-             f.write('<question type="numerical">\n')
-             f.write('<name>\n')
-             f.write('<text>Masse molaire</text>\n')
-             f.write('</name>\n')
-             f.write('<questiontext format="html">\n')
-             f.write('<text><![CDATA[%s]]></text>\n' %question.enonce)
-             f.write('</questiontext>\n')
-             f.write('<generalfeedback format="html">\n')
-             f.write("<text><![CDATA[ %s ]]></text>  \n" %question.feedback)
-             f.write('</generalfeedback>\n')
-             f.write('<defaultgrade>1.0000000</defaultgrade>\n')
-             f.write('<penalty>0.3333333</penalty>\n')
-             f.write('<hidden>0</hidden>\n')
-             f.write('<answer fraction="100" format="moodle_auto_format">\n')
-             f.write('<text>%s</text>\n'%question.reponse)
-             f.write('<feedback format="html">\n')
-             f.write('<text></text>\n')
-             f.write('</feedback>\n')
-             f.write('<tolerance>%s</tolerance>\n'%(0.03*question.reponse))
-             f.write('</answer>\n')
-             f.write('<unitgradingtype>0</unitgradingtype>\n')
-             f.write('<unitpenalty>0.1000000</unitpenalty>\n')
-             f.write('<showunits>3</showunits>\n')
-             f.write('<unitsleft>0</unitsleft>\n')
-             f.write('</question>\n')
+        f.write('<question type="cloze">\n')
+        f.write('<name>\n')
+        f.write('<text>Masse molaire</text>\n')
+        f.write('</name>\n')
+        f.write('<questiontext format="html">\n')
+        f.write('<text><![CDATA[%s]]></text>\n' %question.enonce)
+        f.write("</questiontext>  \n")
+        f.write('<generalfeedback format="html">  \n')
+        f.write("<text><![CDATA[ %s ]]></text>  \n" %question.feedback)
+        f.write("</generalfeedback>  \n")
+        f.write("<penalty>0.3333333</penalty>  \n")
+        f.write("<hidden>0</hidden>  \n")
+        f.write("</question>  \n")
      f.write('</quiz>')
      f.close()
-     
