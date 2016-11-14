@@ -1,6 +1,12 @@
 #! /usr/bin/python
 # -*- coding: utf-8 -*- 
 
+"""Attention, ce script ne génère pas encore d'exercice pour moodle;
+Il s'git d'un script utilisé pour créer des exercices dans un fichier tex 
+et qui pourrait être modifié pour créer des exercices au format moodle xml.
+Le gros du travail consite à créer les images en svg pour la correction.
+Il faut aussi prévoir d'otimiser le code, le rendre plus lisible, ..."""
+
 import random
 import math
 import subprocess
