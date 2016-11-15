@@ -1,0 +1,1 @@
+Utiliser le type fraction de python.
