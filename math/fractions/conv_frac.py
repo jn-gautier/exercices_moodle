@@ -8,7 +8,7 @@ Modifier la présentation du code latex afin de supprimer les $$ et les remplace
 """
 
 import random
-
+from fractions import Fraction
 
 class Fraction:
      def __init__(self):
