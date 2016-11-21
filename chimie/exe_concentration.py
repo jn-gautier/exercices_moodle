@@ -73,7 +73,7 @@ class Molecule():
         self.mole=self.cc_massique*self.volume_litre/self.masse_molaire
         self.mole,self.mole_latex=convert_sci(self.mole)
         
-        choix=random.randint(1,7)
+        choix=random.randint(1,10)
         if choix==1 : self.exe_1()
         if choix==2 : self.exe_2()
         if choix==3 : self.exe_3()
@@ -83,6 +83,7 @@ class Molecule():
         if choix==7 : self.exe_7()
         if choix==8 : self.exe_8()
         if choix==9 : self.exe_9()
+        if choix==10 : self.exe_10()
         
         #
     
@@ -95,9 +96,9 @@ class Molecule():
             self.text_sup=''
         
         self.enonce="<p>Quelle serait la concentration massique et la concentration molaire d'une solution obtenue en dissolvant une masse de \(%s [g]\) de %s%s dans un volume de \(%s %s\) d'eau?</p>"%(self.masse_latex,self.nom,self.text_sup,self.volume_latex,self.unites_volume)
-        self.enonce+="<p> \( C_{M}= \) {1:NUMERICAL:=%s:%s} "%(self.cc_molaire,self.cc_molaire*3/100)
+        self.enonce+="<p> \( C_{M}= \) {2:NUMERICAL:=%s:%s} "%(self.cc_molaire,self.cc_molaire*3/100)
         self.enonce+="{1:MC:[g/mol]~[mol]~[g]~[L]~[g/L]~=[mol/L]}</p>"
-        self.enonce+="<p> \( \gamma= \) {1:NUMERICAL:=%s:%s} "%(self.cc_massique,self.cc_massique*3/100)
+        self.enonce+="<p> \( \gamma= \) {2:NUMERICAL:=%s:%s} "%(self.cc_massique,self.cc_massique*3/100)
         self.enonce+="{1:MC:[g/mol]~[mol]~[g]~[L]~=[g/L]~[mol/L]}</p>"
         
         self.feedback="<p>Données<br/>"
@@ -135,9 +136,9 @@ class Molecule():
             self.text_sup=''
         
         self.enonce="<p>Quelle serait la concentration massique et la concentration molaire d'une solution obtenue en dissolvant une quantité de \(%s [mol]\) de %s%s dans un volume de \(%s %s\) d'eau?</p>"%(self.mole_latex,self.nom,self.text_sup,self.volume_latex,self.unites_volume)
-        self.enonce+="<p> \( C_{M}= \) {1:NUMERICAL:=%s:%s} "%(self.cc_molaire,self.cc_molaire*3/100)
+        self.enonce+="<p> \( C_{M}= \) {2:NUMERICAL:=%s:%s} "%(self.cc_molaire,self.cc_molaire*3/100)
         self.enonce+="{1:MC:[g/mol]~[mol]~[g]~[L]~[g/L]~=[mol/L]}</p>"
-        self.enonce+="<p> \( \gamma= \) {1:NUMERICAL:=%s:%s} "%(self.cc_massique,self.cc_massique*3/100)
+        self.enonce+="<p> \( \gamma= \) {2:NUMERICAL:=%s:%s} "%(self.cc_massique,self.cc_massique*3/100)
         self.enonce+="{1:MC:[g/mol]~[mol]~[g]~[L]~=[g/L]~[mol/L]}</p>"
         
         self.feedback="<p>Données<br/>"
@@ -174,7 +175,7 @@ class Molecule():
             self.text_sup=''
         
         self.enonce="<p>Dans quel volume d'eau faut-il dissoudre une masse de \(%s [g]\) de %s%s pour préparer une solution dont la concentration molaire est de \(%s [mol.L^{-1}]\)?</p>"%(self.masse_latex,self.nom,self.text_sup,self.cc_molaire_latex)
-        self.enonce+="<p>V= {1:NUMERICAL:=%s:%s}  "%(self.volume_litre,self.volume_litre*3/100)
+        self.enonce+="<p>V= {2:NUMERICAL:=%s:%s}  "%(self.volume_litre,self.volume_litre*3/100)
         self.enonce+="{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p>"
         
         #self.reponse=self.volume_litre
@@ -211,7 +212,7 @@ class Molecule():
             self.text_sup=''
         
         self.enonce="<p>Dans quel volume d'eau faut-il dissoudre une masse de \(%s [g]\) de %s%s pour préparer une solution dont la concentration massique est de \(%s [g.L^{-1}]\)?</p>"%(self.masse_latex,self.nom,self.text_sup,self.cc_massique_latex)
-        self.enonce+="<p>V= {1:NUMERICAL:=%s:%s}  "%(self.volume_litre,self.volume_litre*3/100)
+        self.enonce+="<p>V= {2:NUMERICAL:=%s:%s}  "%(self.volume_litre,self.volume_litre*3/100)
         self.enonce+="{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p>"
         
         self.reponse=self.volume_litre
@@ -245,7 +246,7 @@ class Molecule():
             self.text_sup=''
         
         self.enonce="<p>Dans quel volume d'eau faut-il dissoudre une quantité de \(%s [mol]\) de %s%s pour préparer une solution dont la concentration molaire est de \(%s [mol.L^{-1}]\)?</p>"%(self.mole_latex,self.nom,self.text_sup,self.cc_molaire_latex)
-        self.enonce+="<p>V= {1:NUMERICAL:=%s:%s}  "%(self.volume_litre,self.volume_litre*3/100)
+        self.enonce+="<p>V= {2:NUMERICAL:=%s:%s}  "%(self.volume_litre,self.volume_litre*3/100)
         self.enonce+="{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p>"
         
         self.reponse=self.volume_litre
@@ -279,7 +280,7 @@ class Molecule():
             self.text_sup=''
         
         self.enonce="<p>Dans quel volume d'eau faut-il dissoudre une quantité de \(%s [mol]\) de %s%s pour préparer une solution dont la concentration massique est de \(%s [g.L^{-1}]\)?</p>"%(self.mole_latex,self.nom,self.text_sup,self.cc_massique_latex)
-        self.enonce+="<p>V= {1:NUMERICAL:=%s:%s}  "%(self.volume_litre,self.volume_litre*3/100)
+        self.enonce+="<p>V= {2:NUMERICAL:=%s:%s}  "%(self.volume_litre,self.volume_litre*3/100)
         self.enonce+="{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p>"
         
         self.reponse=self.volume_litre
@@ -317,7 +318,7 @@ class Molecule():
             self.text_sup=''
         
         self.enonce="<p>Quelle masse de %s%s faut-il utiliser pour préparer \(%s%s\) d'une solution dont la concentration massique est de \(%s [g.L^{-1}]\)?</p>"%(self.nom,self.text_sup,self.volume_latex,self.unites_volume,self.cc_massique_latex)
-        self.enonce+="<p>m= {1:NUMERICAL:=%s:%s}  "%(self.masse,self.masse*3/100)
+        self.enonce+="<p>m= {2:NUMERICAL:=%s:%s}  "%(self.masse,self.masse*3/100)
         self.enonce+="{1:MC:[g/mol]~[mol]~=[g]~[L]~[g/L]~[mol/L]}</p>"
         
         self.reponse=self.masse
@@ -351,7 +352,7 @@ class Molecule():
             self.text_sup=''
         
         self.enonce="<p>Quelle masse de %s%s faut-il utiliser pour préparer \(%s%s\) d'une solution dont la concentration molaire est de \(%s [mol.L^{-1}]\)?</p>"%(self.nom,self.text_sup,self.volume_latex,self.unites_volume,self.cc_molaire_latex)
-        self.enonce+="<p>m= {1:NUMERICAL:=%s:%s}  "%(self.masse,self.masse*3/100)
+        self.enonce+="<p>m= {2:NUMERICAL:=%s:%s}  "%(self.masse,self.masse*3/100)
         self.enonce+="{1:MC:[g/mol]~[mol]~=[g]~[L]~[g/L]~[mol/L]}</p>"
         
         self.reponse=self.masse
@@ -389,7 +390,7 @@ class Molecule():
             self.text_sup=''
         
         self.enonce="<p>Combien de moles de %s%s sont contenues dans un volume de \(%s%s\) d'une solution dont la concentration massique est de \(%s [g.L^{-1}]\)?</p>"%(self.nom,self.text_sup,self.volume_latex,self.unites_volume,self.cc_massique_latex)
-        self.enonce+="<p>n= {1:NUMERICAL:=%s:%s}  "%(self.mole,self.mole*3/100)
+        self.enonce+="<p>n= {2:NUMERICAL:=%s:%s}  "%(self.mole,self.mole*3/100)
         self.enonce+="{1:MC:[g/mol]~=[mol]~[g]~[L]~[g/L]~[mol/L]}</p>"
         
         self.reponse=self.mole
@@ -427,7 +428,7 @@ class Molecule():
             self.text_sup=''
         
         self.enonce="<p>Combien de moles de %s%s sont contenues dans un volume de \(%s%s\) d'une solution dont la concentration molaire est de \(%s [mol.L^{-1}]\)?</p>"%(self.nom,self.text_sup,self.volume_latex,self.unites_volume,self.cc_molaire_latex)
-        self.enonce+="<p>n= {1:NUMERICAL:=%s:%s}  "%(self.mole,self.mole*3/100)
+        self.enonce+="<p>n= {2:NUMERICAL:=%s:%s}  "%(self.mole,self.mole*3/100)
         self.enonce+="{1:MC:[g/mol]~=[mol]~[g]~[L]~[g/L]~[mol/L]}</p>"
         
         self.reponse=self.mole
