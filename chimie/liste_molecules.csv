@@ -1,240 +1,241 @@
-Sel ternaire	MXO	Ag2Cr2O7	Ag_{2}Cr{_2}O{_7}	dichromate d'argent(I)	432	0,159
-Base	MOH	Li(OH)	LiOH	hydroxyde de lithium	24	12,3
-Sel ternaire	MXO	Na3PO4	Na_{3}PO{_4}	phosphate de sodium	164	12,1
-Sel binaire	MX	CoCl2	CoCl_{2}	chlorure de cobalt(II)	129	52,9
 Base	MOH	Na(OH)	NaOH	hydroxyde de sodium	40	109
-Sel ternaire	MXO	LiClO3	LiClO{_3}	chlorate de lithium	90	372
-Acide binaire	HX	H2S	H_{2}S	acide sulfhydrique	34	0,33
-Sel binaire	MX	SbF3	SbF_{3}	fluorure d'antimoine	179	444
-Sel binaire	MX	LiF	LiF	fluorure de lithium	26	0,16
-Sel ternaire	MXO	KBrO3	KBrO{_3}	bromate de potassium	167	6,91
-Sel binaire	MX	NaF	NaF	fluorure de sodium	42	4,06
-Sel ternaire	MXO	Sr(C2H3O2)2	Sr(CH{_2}COOH)_{2}	acetate de strontium	206	41,1
-Sel binaire	MX	CaBr2	CaBr_{2}	bromure de calcium	200	143
-Sel binaire	MX	MnBr2	MnBr_{2}	bromure de manganèse(II)	215	147
-Acide binaire	HX	HCl	HCl	acide chlorhydrique	36	70
+Sel ternaire	MXO	Ca(ClO3)2	Ca(ClO{_3})_{2}	chlorate de calcium	206	209
 Sel binaire	MX	NaCl	NaCl	chlorure de sodium	58	35,9
-Sel ternaire	MXO	RbNO3	RbNO{_3}	nitrate de rubidium	147	52,9
-Sel ternaire	MXO	Tl2SO4	Tl_{2}SO{_4}	sulfate de thallium(I)	472	4,87
-Sel ternaire	MXO	AgMnO4	AgMnO{_4}	permanganate d'argent(I)	227	0,9
-Sel binaire	MX	NaI	NaI	iodure de sodium	150	178
-Oxyde métallique	MO	BaO	BaO	oxyde de baryum	153	3,48
-Sel ternaire	MXO	Ca(MnO4)2	Ca(MnO{_4})_{2}	permanganate de calcium	278	338
-Sel ternaire	MXO	Rb2SO4	Rb_{2}SO{_4}	sulfate de rubidium	234	48,1
-Sel binaire	MX	TlF	TlF	fluorure de thallium(I)	223	78
-Base	MOH	Tl(OH)	TlOH	hydroxyde de thallium(I)	221	35
-Sel ternaire	MXO	KClO3	KClO{_3}	chlorate de potassium	122	7,3
-Sel ternaire	MXO	NaCN	NaCN	cyanure de sodium	49	58,7
+Sel binaire	MX	CuBr2	CuBr_{2}	bromure de cuivre(II)	224	126
 Base	MOH	K(OH)	KOH	hydroxyde de potassium	56	112
-Sel ternaire	MXO	Mg(ClO4)2	Mg(ClO{_4})_{2}	perchlorate de magnésium	222	49,6
-Sel ternaire	MXO	Na2CrO4	Na_{2}CrO{_4}	chromate de sodium	162	84
-Sel binaire	MX	KI	KI	iodure de potassium	166	144
-Sel binaire	MX	CuCl2	CuCl_{2}	chlorure de cuivre(II)	134	73
-Sel binaire	MX	LiCl	LiCl	chlorure de lithium	42	83,5
-Sel ternaire	MXO	K2SO4	K_{2}SO{_4}	sulfate de potassium	142	11,1
-Sel binaire	MX	SrI2	SrI_{2}	iodure de strontium	342	178
-Sel ternaire	MXO	Al(NO3)3	Al(NO{_3})_{3}	nitrate d'aluminium	213	73,9
-Sel ternaire	MXO	(NH4)2SO3	{NH_{4}}_{2}SO{_3}	sulfite d'ammonium	116	60,8
-Sel ternaire	MXO	NaIO3	NaIO{_3}	iodate de sodium	198	8,08
-Sel ternaire	MXO	Ce(C2H3O2)3	Ce(CH{_2}COOH)_{3}	acetate de cérium	317	0,35
-Base	MOH	Ca(OH)2	Ca(OH)_{2}	hydroxyde de calcium	74	0,173
-Sel binaire	MX	CuF2	CuF_{2}	fluorure de cuivre(II)	102	0,075
-Sel binaire	MX	NiI2	NiI_{2}	iodure de nickel(II)	313	148
-Sel ternaire	MXO	Ce2(SeO4)3	Ce_{2}(SeO{_4})_{3}	sélénate de cérium	709	35,2
-Sel binaire	MX	BeCl2	BeCl_{2}	chlorure de béryllium	79	42
-Sel binaire	MX	PbBr2	PbBr_{2}	bromure de plomb(II)	367	0,86
-Sel binaire	MX	AlCl3	AlCl_{3}	chlorure d'aluminium	132	45,8
+Acide binaire	HX	H2S	H_{2}S	acide sulfhydrique	34	0,33
+Sel binaire	MX	NiF2	NiF_{2}	fluorure de nickel(II)	97	2,56
 Sel binaire	MX	KF	KF	fluorure de potassium	58	94,9
-Sel binaire	MX	SrBr2	SrBr_{2}	bromure de strontium	248	102
-Sel binaire	MX	BaCl2	BaCl_{2}	chlorure de baryum	207	35,8
-Sel ternaire	MXO	CsMnO4	CsMnO{_4}	permanganate de césium	252	0,228
-Sel ternaire	MXO	NaClO3	NaClO{_3}	chlorate de sodium	106	95,9
-Sel ternaire	MXO	TlClO4	TlClO{_4}	perchlorate de thallium(I)	303	13,1
-Sel binaire	MX	NiBr2	NiBr_{2}	bromure de nickel(II)	219	131
-Sel binaire	MX	HgBr2	HgBr_{2}	bromure de mercure(II)	361	0,56
-Sel binaire	MX	HgCl2	HgCl_{2}	chlorure de mercure(II)	271	6,57
-Sel ternaire	MXO	Na2SeO4	Na_{2}SeO{_4}	sélénate de sodium	189	26,9
-Sel ternaire	MXO	LiBrO3	LiBrO{_3}	bromate de lithium	135	179
-Sel binaire	MX	CsF	CsF	fluorure de césium	152	322
-Sel binaire	MX	TlBr	TlBr	bromure de thallium(I)	284	0,048
-Sel binaire	MX	LiBr	LiBr	bromure de lithium	87	160
-Sel binaire	MX	PbI2	PbI_{2}	iodure de plomb(II)	461	0,069
-Sel ternaire	MXO	Ba(MnO4)2	Ba(MnO{_4})_{2}	permanganate de baryum	375	0,015
-Sel binaire	MX	CsI	CsI	iodure de césium	260	76,5
-Sel binaire	MX	CdF2	CdF_{2}	fluorure de cadmium(II)	150	4
-Sel binaire	MX	RbI	RbI	iodure de rubidium	212	144
-Sel ternaire	MXO	Sr(NO3)2	Sr(NO{_3})_{2}	nitrate de strontium	212	69,5
-Sel binaire	MX	ZnI2	ZnI_{2}	iodure de zinc(II)	319	432
-Sel ternaire	MXO	Ag2SO4	Ag_{2}SO{_4}	sulfate d'argent(I)	280	0,8
-Sel binaire	MX	KCl	KCl	chlorure de potassium	74	34,2
-Sel binaire	MX	MgBr2	MgBr_{2}	bromure de magnésium	184	101
-Sel binaire	MX	LiI	LiI	iodure de lithium	134	165
+Base	MOH	Ca(OH)2	Ca(OH)_{2}	hydroxyde de calcium	74	0,173
+Acide binaire	HX	HCl	HCl	acide chlorhydrique	36	70
+Base	MOH	Li(OH)	LiOH	hydroxyde de lithium	24	12,3
+Sel ternaire	MXO	K3PO4	K_{3}PO{_4}	phosphate de potassium	212	92,3
 Base	MOH	Rb(OH)	RbOH	hydroxyde de rubidium	102	180
-Sel binaire	MX	CeCl3	CeCl_{3}	chlorure de cérium	245	100
-Sel ternaire	MXO	Rb2SeO4	Rb_{2}SeO{_4}	sélénate de rubidium	313	159
-Sel binaire	MX	KBr	KBr	bromure de potassium	119	65,3
-Sel ternaire	MXO	Ca(NO3)2	Ca(NO{_3})_{2}	nitrate de calcium	164	121,2
-Sel ternaire	MXO	CaCrO4	CaCrO{_4}	chromate de calcium	156	2,25
-Sel ternaire	MXO	Mg(ClO3)2	Mg(ClO{_3})_{2}	chlorate de magnésium	190	135
-Sel binaire	MX	MnCl2	MnCl_{2}	chlorure de manganèse(II)	125	73,9
-Sel binaire	MX	CsCl	CsCl	chlorure de césium	168	187
-Sel ternaire	MXO	NaBrO3	NaBrO{_3}	bromate de sodium	151	36,4
-Sel binaire	MX	MgCl2	MgCl_{2}	chlorure de magnésium	94	54,6
-Sel binaire	MX	ZnF2	ZnF_{2}	fluorure de zinc(II)	103	1,6
-Sel binaire	MX	CaCl2	CaCl_{2}	chlorure de calcium	110	74,5
-Sel ternaire	MXO	Ba(IO3)2	Ba(IO{_3})_{2}	iodate de baryum	487	0,035
-Sel ternaire	MXO	Cd(NO3)2	Cd(NO{_3})_{2}	nitrate de cadmium(II)	236	136
-Sel ternaire	MXO	BeSO4	BeSO{_4}	sulfate de béryllium	73	39,1
-Sel ternaire	MXO	Rb2Cr2O7	Rb_{2}Cr{_2}O{_7}	dichromate de rubidium	386	5,9
+Sel binaire	MX	CuF2	CuF_{2}	fluorure de cuivre(II)	102	0,075
+Sel binaire	MX	CdF2	CdF_{2}	fluorure de cadmium(II)	150	4
+Sel binaire	MX	PbBr2	PbBr_{2}	bromure de plomb(II)	367	0,86
+Sel binaire	MX	BaCl2	BaCl_{2}	chlorure de baryum	207	35,8
+Sel binaire	MX	AlCl3	AlCl_{3}	chlorure d'aluminium	132	45,8
 Sel ternaire	MXO	KClO4	KClO{_4}	perchlorate de potassium	138	1,68
-Sel binaire	MX	PbF2	PbF_{2}	fluorure de plomb(II)	245	0,04634
-Sel ternaire	MXO	Ce(IO3)3	Ce(IO{_3})_{3}	iodate de cérium	665	0,123
-Sel ternaire	MXO	Be(NO3)2	Be(NO{_3})_{2}	nitrate de béryllium	133	108
-Sel binaire	MX	BaS	BaS	sulfure de baryum	169	7,86
-Sel ternaire	MXO	Na2Cr2O7	Na_{2}Cr{_2}O{_7}	dichromate de sodium	262	183
-Sel binaire	MX	BaI2	BaI_{2}	iodure de baryum	391	223
-Sel ternaire	MXO	(NH4)3PO4	{NH_{4}}_{3}PO{_4}	phosphate d'ammonium	149	20,3
-Sel ternaire	MXO	TlNO3	TlNO{_3}	nitrate de thallium(I)	266	9,55
-Sel ternaire	MXO	Li2SO4	Li_{2}SO{_4}	sulfate de lithium	78	34,8
-Sel ternaire	MXO	CdSeO4	CdSeO{_4}	sélénate de cadmium(II)	255	64
-Sel ternaire	MXO	Na2SO4	Na_{2}SO{_4}	sulfate de sodium	110	19,5
+Sel ternaire	MXO	NaNO2	NaNO{_2}	nitrite de sodium	69	80,8
+Base	MOH	Tl(OH)	TlOH	hydroxyde de thallium(I)	221	35
 Sel ternaire	MXO	MgSeO4	MgSeO{_4}	sélénate de magnésium	167	38,3
-Sel binaire	MX	SbCl3	SbCl_{3}	chlorure d'antimoine	227	910
-Sel ternaire	MXO	AgBrO3	AgBrO{_3}	bromate d'argent(I)	236	0,16
-Sel ternaire	MXO	CsClO4	CsClO{_4}	perchlorate de césium	232	1,6
+Sel binaire	MX	CsCl	CsCl	chlorure de césium	168	187
+Oxyde métallique	MO	BaO	BaO	oxyde de baryum	153	3,48
+Sel binaire	MX	FeBr2	FeBr_{2}	bromure de fer(II)	216	117
+Sel binaire	MX	MgBr2	MgBr_{2}	bromure de magnésium	184	101
+Sel ternaire	MXO	Na2CrO4	Na_{2}CrO{_4}	chromate de sodium	162	84
+Sel ternaire	MXO	(NH4)2Cr2O7	{NH_{4}}_{2}Cr{_2}O{_7}	dichromate d'ammonium	252	35,6
+Sel ternaire	MXO	LiClO4	LiClO{_4}	perchlorate de lithium	106	56,1
+Sel binaire	MX	AgF	AgF	fluorure d'argent(I)	127	172
+Sel binaire	MX	MnCl2	MnCl_{2}	chlorure de manganèse(II)	125	73,9
+Sel binaire	MX	LiI	LiI	iodure de lithium	134	165
+Sel binaire	MX	BeCl2	BeCl_{2}	chlorure de béryllium	79	42
+Sel binaire	MX	KI	KI	iodure de potassium	166	144
+Sel ternaire	MXO	KCN	KCN	cyanure de potassium	65	50
+Sel binaire	MX	CeCl3	CeCl_{3}	chlorure de cérium	245	100
+Sel ternaire	MXO	MgSO4	MgSO{_4}	sulfate de magnésium	120	33,7
+Sel ternaire	MXO	Ce(IO3)3	Ce(IO{_3})_{3}	iodate de cérium	665	0,123
+Sel binaire	MX	CsF	CsF	fluorure de césium	152	322
+Sel binaire	MX	HgCl2	HgCl_{2}	chlorure de mercure(II)	271	6,57
+Sel ternaire	MXO	K2CO3	K_{2}CO{_3}	carbonate de potassium	138	111
+Sel binaire	MX	RbF	RbF	fluorure de rubidium	104	300
+Sel ternaire	MXO	LiNO3	LiNO{_3}	nitrate de lithium	69	70,1
+Sel binaire	MX	CaI2	CaI_{2}	iodure de calcium	294	66
 Sel binaire	MX	MgI2	MgI_{2}	iodure de magnésium	278	140
-Sel ternaire	MXO	KNO3	KNO{_3}	nitrate de potassium	101	31,6
+Sel ternaire	MXO	Tl2CO3	Tl_{2}CO{_3}	carbonate de thallium(I)	468	5,3
+Sel ternaire	MXO	Hg(CN)2	Hg(CN)_{2}	cyanure de mercure(II)	253	9,3
+Sel ternaire	MXO	KMnO4	KMnO{_4}	permanganate de potassium	158	6,34
+Sel binaire	MX	FeF3	FeF_{3}	fluorure de fer(III)	113	0,091
+Sel ternaire	MXO	K2Cr2O7	K_{2}Cr{_2}O{_7}	dichromate de potassium	294	12,3
+Sel ternaire	MXO	Ba(NO2)2	Ba(NO{_2})_{2}	nitrite de baryum	229	72,8
+Sel ternaire	MXO	Be(ClO4)2	Be(ClO{_4})_{2}	perchlorate de béryllium	207	147
+Sel ternaire	MXO	Hg(C2H3O2)2	Hg(CH{_2}COOH)_{2}	acetate de mercure(II)	319	25
+Sel ternaire	MXO	Ca(NO3)2	Ca(NO{_3})_{2}	nitrate de calcium	164	121,2
+Sel ternaire	MXO	Ce2(SeO4)3	Ce_{2}(SeO{_4})_{3}	sélénate de cérium	709	35,2
+Sel binaire	MX	NaF	NaF	fluorure de sodium	42	4,06
+Sel binaire	MX	MgCl2	MgCl_{2}	chlorure de magnésium	94	54,6
+Sel ternaire	MXO	Mg(IO3)2	Mg(IO{_3})_{2}	iodate de magnésium	374	8,6
+Sel binaire	MX	CaCl2	CaCl_{2}	chlorure de calcium	110	74,5
+Sel ternaire	MXO	Pb(NO3)2	Pb(NO{_3})_{2}	nitrate de plomb(II)	331	54,3
+Sel ternaire	MXO	RbNO3	RbNO{_3}	nitrate de rubidium	147	52,9
+Sel binaire	MX	NiBr2	NiBr_{2}	bromure de nickel(II)	219	131
 Sel ternaire	MXO	Sr(IO3)2	Sr(IO{_3})_{2}	iodate de strontium	438	0,19
-Sel ternaire	MXO	TlCN	TlCN	cyanure de thallium(I)	230	16,8
+Sel ternaire	MXO	CsBrO3	CsBrO{_3}	bromate de césium	261	3,66
+Sel ternaire	MXO	(NH4)2SO3	{NH_{4}}_{2}SO{_3}	sulfite d'ammonium	116	60,8
+Sel binaire	MX	PbF2	PbF_{2}	fluorure de plomb(II)	245	0,04634
+Sel ternaire	MXO	CsClO3	CsClO{_3}	chlorate de césium	216	6,2
+Sel ternaire	MXO	Cd(IO3)2	Cd(IO{_3})_{2}	iodate de cadmium(II)	462	0,097
+Sel binaire	MX	SrCl2	SrCl_{2}	chlorure de strontium	158	52,9
+Sel binaire	MX	CsI	CsI	iodure de césium	260	76,5
+Sel ternaire	MXO	Na2Cr2O7	Na_{2}Cr{_2}O{_7}	dichromate de sodium	262	183
+Sel binaire	MX	BaBr2	BaBr_{2}	bromure de baryum	297	104
+Sel ternaire	MXO	Al(ClO4)3	Al(ClO{_4})_{3}	perchlorate d'aluminium	324	133
+Sel binaire	MX	SbF3	SbF_{3}	fluorure d'antimoine	179	444
+Sel ternaire	MXO	Al2(SO4)3	Al_{2}(SO{_4})_{3}	sulfate d'aluminium	342	36,4
+Sel ternaire	MXO	KNO2	KNO{_2}	nitrite de potassium	85	306
+Sel binaire	MX	CoI2	CoI_{2}	iodure de cobalt(II)	313	203
+Sel binaire	MX	HgBr2	HgBr_{2}	bromure de mercure(II)	361	0,56
+Sel binaire	MX	CdBr2	CdBr_{2}	bromure de cadmium(II)	272	98,8
+Sel ternaire	MXO	Cu(NO3)2	Cu(NO{_3})_{2}	nitrate de cuivre(II)	188	125
+Sel ternaire	MXO	Na2CO3	Na_{2}CO{_3}	carbonate de sodium	106	21,5
+Sel binaire	MX	RbBr	RbBr	bromure de rubidium	165	108
+Sel ternaire	MXO	Pb(BrO3)2	Pb(BrO{_3})_{2}	bromate de plomb(II)	463	7,92
+Sel ternaire	MXO	Zn(C2H3O2)2	Zn(CH{_2}COOH)_{2}	acetate de zinc(II)	183	30
+Sel binaire	MX	KBr	KBr	bromure de potassium	119	65,3
+Sel binaire	MX	NaI	NaI	iodure de sodium	150	178
+Sel ternaire	MXO	NaBrO3	NaBrO{_3}	bromate de sodium	151	36,4
+Sel binaire	MX	LiCl	LiCl	chlorure de lithium	42	83,5
+Sel ternaire	MXO	Al(NO3)3	Al(NO{_3})_{3}	nitrate d'aluminium	213	73,9
+Sel binaire	MX	LiBr	LiBr	bromure de lithium	87	160
+Sel binaire	MX	CaBr2	CaBr_{2}	bromure de calcium	200	143
+Sel ternaire	MXO	Zn(CN)2	Zn(CN)_{2}	cyanure de zinc(II)	117	0,058
+Sel ternaire	MXO	Sr(NO3)2	Sr(NO{_3})_{2}	nitrate de strontium	212	69,5
+Sel binaire	MX	BaS	BaS	sulfure de baryum	169	7,86
+Sel ternaire	MXO	Ca(MnO4)2	Ca(MnO{_4})_{2}	permanganate de calcium	278	338
+Sel ternaire	MXO	(NH4)3PO4	{NH_{4}}_{3}PO{_4}	phosphate d'ammonium	149	20,3
+Sel binaire	MX	MnF2	MnF_{2}	fluorure de manganèse(II)	93	10,6
+Sel ternaire	MXO	LiClO3	LiClO{_3}	chlorate de lithium	90	372
+Sel ternaire	MXO	TlIO3	TlIO{_3}	iodate de thallium(I)	379	0,06678
+Sel ternaire	MXO	AgClO3	AgClO{_3}	chlorate d'argent(I)	191	15,3
+Sel binaire	MX	RbI	RbI	iodure de rubidium	212	144
+Sel ternaire	MXO	NaCN	NaCN	cyanure de sodium	49	58,7
+Sel binaire	MX	BaI2	BaI_{2}	iodure de baryum	391	223
+Sel binaire	MX	SrI2	SrI_{2}	iodure de strontium	342	178
+Sel ternaire	MXO	RbIO3	RbIO{_3}	iodate de rubidium	260	1,96
+Sel ternaire	MXO	PbSeO4	PbSeO{_4}	sélénate de plomb(II)	350	0,0131
+Sel binaire	MX	KCl	KCl	chlorure de potassium	74	34,2
+Sel ternaire	MXO	Zn(ClO3)2	Zn(ClO{_3})_{2}	chlorate de zinc(II)	231	209
+Sel ternaire	MXO	Co(ClO4)2	Co(ClO{_4})_{2}	perchlorate de cobalt(II)	257	104
+Sel ternaire	MXO	Pb(ClO3)2	Pb(ClO{_3})_{2}	chlorate de plomb(II)	373	144
 Sel ternaire	MXO	CuSeO4	CuSeO{_4}	sélénate de cuivre(II)	207	17,5
 Sel binaire	MX	CdI2	CdI_{2}	iodure de cadmium(II)	366	84,7
-Sel binaire	MX	CoI2	CoI_{2}	iodure de cobalt(II)	313	203
-Sel ternaire	MXO	Ce(NO3)3	Ce(NO{_3})_{3}	nitrate de cérium	326	234
-Sel ternaire	MXO	Mg(C2H3O2)2	Mg(CH{_2}COOH)_{2}	acetate de magnésium	142	53,4
-Sel ternaire	MXO	Mg(IO3)2	Mg(IO{_3})_{2}	iodate de magnésium	374	8,6
-Sel ternaire	MXO	ZnSO4	ZnSO{_4}	sulfate de zinc(II)	129	53,8
-Sel binaire	MX	ZnBr2	ZnBr_{2}	bromure de zinc(II)	225	446
-Sel ternaire	MXO	Li3PO4	Li_{3}PO{_4}	phosphate de lithium	116	0,03821
-Sel ternaire	MXO	CsNO3	CsNO{_3}	nitrate de césium	195	23
-Sel binaire	MX	AlF3	AlF_{3}	fluorure d'aluminium	84	0,67
-Sel ternaire	MXO	BeCO3	BeCO{_3}	carbonate de béryllium	69	0,218
-Sel binaire	MX	RbBr	RbBr	bromure de rubidium	165	108
-Sel ternaire	MXO	Co(NO2)2	Co(NO{_2})_{2}	nitrite de cobalt(II)	151	0,4
-Sel binaire	MX	ZnCl2	ZnCl_{2}	chlorure de zinc(II)	135	395
-Sel ternaire	MXO	TlClO3	TlClO{_3}	chlorate de thallium(I)	287	3,92
-Sel ternaire	MXO	Na2CO3	Na_{2}CO{_3}	carbonate de sodium	106	21,5
-Sel ternaire	MXO	SrSO4	SrSO{_4}	sulfate de strontium	152	0,0132
-Sel ternaire	MXO	CsClO3	CsClO{_3}	chlorate de césium	216	6,2
-Sel ternaire	MXO	KCN	KCN	cyanure de potassium	65	50
-Sel ternaire	MXO	AgNO2	AgNO{_2}	nitrite d'argent(I)	154	0,34
-Sel ternaire	MXO	Ca(BrO3)2	Ca(BrO{_3})_{2}	bromate de calcium	296	230
-Sel binaire	MX	CoBr2	CoBr_{2}	bromure de cobalt(II)	219	112
-Sel binaire	MX	MnF2	MnF_{2}	fluorure de manganèse(II)	93	10,6
-Sel ternaire	MXO	Li2CO3	Li_{2}CO{_3}	carbonate de lithium	74	1,33
-Sel binaire	MX	FeBr2	FeBr_{2}	bromure de fer(II)	216	117
-Sel ternaire	MXO	K2Cr2O7	K_{2}Cr{_2}O{_7}	dichromate de potassium	294	12,3
-Sel binaire	MX	NaBr	NaBr	bromure de sodium	103	90,8
-Sel ternaire	MXO	Cs2SO4	Cs_{2}SO{_4}	sulfate de césium	330	179
-Sel ternaire	MXO	Rb2CrO4	Rb_{2}CrO{_4}	chromate de rubidium	286	73,6
-Sel ternaire	MXO	KNO2	KNO{_2}	nitrite de potassium	85	306
-Sel ternaire	MXO	LiMnO4	LiMnO{_4}	permanganate de lithium	126	71,4
-Sel ternaire	MXO	Ba(C2H3O2)2	Ba(CH{_2}COOH)_{2}	acetate de baryum	255	72
-Sel ternaire	MXO	Pb(ClO3)2	Pb(ClO{_3})_{2}	chlorate de plomb(II)	373	144
-Sel ternaire	MXO	Mn(NO3)2	Mn(NO{_3})_{2}	nitrate de manganèse(II)	179	139
-Sel ternaire	MXO	RbClO4	RbClO{_4}	perchlorate de rubidium	184	1,55
-Sel ternaire	MXO	Cd(CN)2	Cd(CN)_{2}	cyanure de cadmium(II)	164	0,022
-Sel ternaire	MXO	(NH4)2SO4	{NH_{4}}_{2}SO{_4}	sulfate d'ammonium	100	75,4
-Sel ternaire	MXO	Ba(ClO3)2	Ba(ClO{_3})_{2}	chlorate de baryum	303	25,26
-Sel ternaire	MXO	AgClO2	AgClO{_2}	chlorite d'argent(I)	175	0,248
-Sel ternaire	MXO	Al2(SO4)3	Al_{2}(SO{_4})_{3}	sulfate d'aluminium	246	36,4
-Sel ternaire	MXO	Zn(ClO3)2	Zn(ClO{_3})_{2}	chlorate de zinc(II)	231	209
-Sel ternaire	MXO	Ni(NO3)2	Ni(NO{_3})_{2}	nitrate de nickel(II)	183	94,2
-Sel ternaire	MXO	(NH4)2Cr2O7	{NH_{4}}_{2}Cr{_2}O{_7}	dichromate d'ammonium	252	35,6
-Sel binaire	MX	AgF	AgF	fluorure d'argent(I)	127	172
-Sel ternaire	MXO	Ca(ClO4)2	Ca(ClO{_4})_{2}	perchlorate de calcium	238	188
-Sel binaire	MX	CdCl2	CdCl_{2}	chlorure de cadmium(II)	182	135
-Sel binaire	MX	BaF2	BaF_{2}	fluorure de baryum	175	0,16
-Sel binaire	MX	FeCl2	FeCl_{2}	chlorure de fer(II)	126	62,5
-Sel binaire	MX	CsBr	CsBr	bromure de césium	213	108
-Sel binaire	MX	RbF	RbF	fluorure de rubidium	104	300
-Sel ternaire	MXO	PbSeO4	PbSeO{_4}	sélénate de plomb(II)	350	0,0131
-Sel ternaire	MXO	K2SeO4	K_{2}SeO{_4}	sélénate de potassium	221	111
-Sel ternaire	MXO	(NH4)2SeO4	{NH_{4}}_{2}SeO{_4}	sélénate d'ammonium	179	115
+Sel ternaire	MXO	TlClO4	TlClO{_4}	perchlorate de thallium(I)	303	13,1
 Sel ternaire	MXO	KIO3	KIO{_3}	iodate de potassium	214	8,08
 Sel ternaire	MXO	MgCO3	MgCO{_3}	carbonate de magnésium	84	0,039
-Sel binaire	MX	BaBr2	BaBr_{2}	bromure de baryum	297	104
-Sel ternaire	MXO	(NH4)2CO3	{NH_{4}}_{2}CO{_3}	carbonate d'ammonium	96	100
-Sel binaire	MX	CoF2	CoF_{2}	fluorure de cobalt(II)	97	1,36
-Sel ternaire	MXO	Tl3PO4	Tl_{3}PO{_4}	phosphate de thallium(I)	707	0,15
-Sel ternaire	MXO	Co(ClO4)2	Co(ClO{_4})_{2}	perchlorate de cobalt(II)	257	104
-Sel ternaire	MXO	Al(ClO4)3	Al(ClO{_4})_{3}	perchlorate d'aluminium	324	133
-Sel binaire	MX	CaI2	CaI_{2}	iodure de calcium	294	66
-Sel ternaire	MXO	Cd(IO3)2	Cd(IO{_3})_{2}	iodate de cadmium(II)	462	0,097
-Sel ternaire	MXO	Ca(IO3)2	Ca(IO{_3})_{2}	iodate de calcium	390	0,24
-Sel binaire	MX	PbCl2	PbCl_{2}	chlorure de plomb(II)	277	1
-Sel binaire	MX	SrCl2	SrCl_{2}	chlorure de strontium	158	52,9
-Sel ternaire	MXO	Ni(IO3)2	Ni(IO{_3})_{2}	iodate de nickel(II)	409	0,062
-Sel ternaire	MXO	CdSO4	CdSO{_4}	sulfate de cadmium(II)	176	76,6
-Sel binaire	MX	CdBr2	CdBr_{2}	bromure de cadmium(II)	272	98,8
-Sel ternaire	MXO	LiNO2	LiNO{_2}	nitrite de lithium	53	96,8
-Sel ternaire	MXO	Pb(C2H3O2)2	Pb(CH{_2}COOH)_{2}	acetate de plomb(II)	325	44,3
-Sel ternaire	MXO	LiNO3	LiNO{_3}	nitrate de lithium	69	70,1
-Sel ternaire	MXO	Ba(NO2)2	Ba(NO{_2})_{2}	nitrite de baryum	229	72,8
-Sel ternaire	MXO	Zn(MnO4)2	Zn(MnO{_4})_{2}	permanganate de zinc(II)	303	33,3
-Sel ternaire	MXO	K3PO4	K_{3}PO{_4}	phosphate de potassium	212	92,3
-Sel ternaire	MXO	Pb(NO3)2	Pb(NO{_3})_{2}	nitrate de plomb(II)	331	54,3
-Sel binaire	MX	NiCl2	NiCl_{2}	chlorure de nickel(II)	129	66,8
-Sel ternaire	MXO	NaNO2	NaNO{_2}	nitrite de sodium	69	80,8
-Sel ternaire	MXO	K2CO3	K_{2}CO{_3}	carbonate de potassium	138	111
-Sel ternaire	MXO	Tl2CO3	Tl_{2}CO{_3}	carbonate de thallium(I)	468	5,3
-Sel ternaire	MXO	Mg(NO3)2	Mg(NO{_3})_{2}	nitrate de magnésium	148	69,5
+Sel ternaire	MXO	MnSO4	MnSO{_4}	sulfate de manganèse(II)	151	62,9
+Sel ternaire	MXO	TlClO3	TlClO{_3}	chlorate de thallium(I)	287	3,92
+Sel binaire	MX	CsBr	CsBr	bromure de césium	213	108
+Sel binaire	MX	ZnCl2	ZnCl_{2}	chlorure de zinc(II)	135	395
+Sel ternaire	MXO	AgClO2	AgClO{_2}	chlorite d'argent(I)	175	0,248
+Sel ternaire	MXO	LiMnO4	LiMnO{_4}	permanganate de lithium	126	71,4
+Sel ternaire	MXO	SrSO4	SrSO{_4}	sulfate de strontium	184	0,0132
+Sel ternaire	MXO	Cd(NO3)2	Cd(NO{_3})_{2}	nitrate de cadmium(II)	236	136
+Sel binaire	MX	NaBr	NaBr	bromure de sodium	103	90,8
+Sel binaire	MX	TlBr	TlBr	bromure de thallium(I)	284	0,048
+Sel binaire	MX	ZnBr2	ZnBr_{2}	bromure de zinc(II)	225	446
+Sel ternaire	MXO	K2SO4	K_{2}SO{_4}	sulfate de potassium	174	11,1
+Sel ternaire	MXO	Rb2SeO4	Rb_{2}SeO{_4}	sélénate de rubidium	313	159
+Sel ternaire	MXO	Ba(IO3)2	Ba(IO{_3})_{2}	iodate de baryum	487	0,035
+Sel ternaire	MXO	Mg(ClO3)2	Mg(ClO{_3})_{2}	chlorate de magnésium	190	135
+Sel ternaire	MXO	Na2SO4	Na_{2}SO{_4}	sulfate de sodium	142	19,5
 Sel ternaire	MXO	Ni(ClO4)2	Ni(ClO{_4})_{2}	perchlorate de nickel(II)	257	110
-Sel ternaire	MXO	Cu(NO3)2	Cu(NO{_3})_{2}	nitrate de cuivre(II)	188	125
-Sel ternaire	MXO	Hg(CN)2	Hg(CN)_{2}	cyanure de mercure(II)	253	9,3
-Sel ternaire	MXO	NaNO3	NaNO{_3}	nitrate de sodium	85	87,6
-Sel ternaire	MXO	(NH4)2CrO4	{NH_{4}}_{2}CrO{_4}	chromate d'ammonium	152	34
-Sel ternaire	MXO	TlIO3	TlIO{_3}	iodate de thallium(I)	379	0,06678
-Sel binaire	MX	NiF2	NiF_{2}	fluorure de nickel(II)	97	2,56
-Sel ternaire	MXO	LiClO4	LiClO{_4}	perchlorate de lithium	106	56,1
-Sel ternaire	MXO	AgClO4	AgClO{_4}	perchlorate d'argent(I)	207	532,9
-Sel ternaire	MXO	KC2H3O2	KCH{_2}COOH	acetate de potassium	98	256
-Sel ternaire	MXO	MgSO4	MgSO{_4}	sulfate de magnésium	88	33,7
-Sel ternaire	MXO	Fe(ClO4)3	Fe(ClO{_4})_{3}	perchlorate de fer(III)	353	368
-Sel binaire	MX	CuBr2	CuBr_{2}	bromure de cuivre(II)	224	126
-Sel ternaire	MXO	Cd(BrO3)2	Cd(BrO{_3})_{2}	bromate de cadmium(II)	368	125
-Sel ternaire	MXO	RbIO3	RbIO{_3}	iodate de rubidium	260	1,96
-Sel binaire	MX	FeF3	FeF_{3}	fluorure de fer(III)	113	0,091
-Sel ternaire	MXO	K2CrO4	K_{2}CrO{_4}	chromate de potassium	194	63,7
-Sel ternaire	MXO	Cd(ClO3)2	Cd(ClO{_3})_{2}	chlorate de cadmium(II)	278	322
-Sel ternaire	MXO	Ni(ClO3)2	Ni(ClO{_3})_{2}	chlorate de nickel(II)	225	133
-Sel ternaire	MXO	Ca(ClO3)2	Ca(ClO{_3})_{2}	chlorate de calcium	206	209
-Sel binaire	MX	RbCl	RbCl	chlorure de rubidium	120	91
-Sel ternaire	MXO	LiC2H3O2	LiCH{_2}COOH	acetate de lithium	66	40,8
-Sel ternaire	MXO	KMnO4	KMnO{_4}	permanganate de potassium	158	6,34
-Sel ternaire	MXO	Ba(NO3)2	Ba(NO{_3})_{2}	nitrate de baryum	261	9,02
-Sel ternaire	MXO	Zn(C2H3O2)2	Zn(CH{_2}COOH)_{2}	acetate de zinc(II)	183	30
+Sel binaire	MX	ZnI2	ZnI_{2}	iodure de zinc(II)	319	432
+Sel ternaire	MXO	KNO3	KNO{_3}	nitrate de potassium	101	31,6
+Sel binaire	MX	MnBr2	MnBr_{2}	bromure de manganèse(II)	215	147
+Sel binaire	MX	CuCl2	CuCl_{2}	chlorure de cuivre(II)	134	73
 Sel ternaire	MXO	Co(NO3)2	Co(NO{_3})_{2}	nitrate de cobalt(II)	183	97,4
-Sel ternaire	MXO	Ba(CN)2	Ba(CN)_{2}	cyanure de baryum	189	80
-Sel ternaire	MXO	MnSO4	MnSO{_4}	sulfate de manganèse(II)	119	62,9
-Sel ternaire	MXO	CuCrO4	CuCrO{_4}	chromate de cuivre(II)	180	0,03407
-Sel ternaire	MXO	AgClO3	AgClO{_3}	chlorate d'argent(I)	191	15,3
-Sel ternaire	MXO	Fe(IO3)3	Fe(IO{_3})_{3}	iodate de fer(III)	581	0,36
-Sel ternaire	MXO	AgC2H3O2	AgCH{_2}COOH	acetate d'argent(I)	167	1,05
-Sel ternaire	MXO	Zn(CN)2	Zn(CN)_{2}	cyanure de zinc(II)	117	0,058
-Sel ternaire	MXO	Be(ClO4)2	Be(ClO{_4})_{2}	perchlorate de béryllium	207	147
-Sel ternaire	MXO	CoSO4	CoSO{_4}	sulfate de cobalt(II)	123	36,1
-Sel ternaire	MXO	SrCrO4	SrCrO{_4}	chromate de strontium	204	0,085
-Sel ternaire	MXO	Hg(ClO3)2	Hg(ClO{_3})_{2}	chlorate de mercure(II)	367	25
-Sel ternaire	MXO	SrSeO4	SrSeO{_4}	sélénate de strontium	231	0,656
-Sel ternaire	MXO	NaClO4	NaClO{_4}	perchlorate de sodium	122	201
-Sel ternaire	MXO	RbClO3	RbClO{_3}	chlorate de rubidium	168	5,4
-Sel ternaire	MXO	AgNO3	AgNO{_3}	nitrate d'argent(I)	170	216
-Sel ternaire	MXO	Co(ClO3)2	Co(ClO{_3})_{2}	chlorate de cobalt(II)	225	180
-Sel ternaire	MXO	Ba(ClO2)2	Ba(ClO{_2})_{2}	chlorite de baryum	271	45,4
-Sel ternaire	MXO	Cu(ClO3)2	Cu(ClO{_3})_{2}	chlorate de cuivre(II)	230	242
-Sel ternaire	MXO	CsBrO3	CsBrO{_3}	bromate de césium	261	3,66
-Sel ternaire	MXO	Hg(C2H3O2)2	Hg(CH{_2}COOH)_{2}	acetate de mercure(II)	319	25
-Sel ternaire	MXO	Pb(BrO3)2	Pb(BrO{_3})_{2}	bromate de plomb(II)	463	7,92
+Sel binaire	MX	RbCl	RbCl	chlorure de rubidium	120	91
+Sel ternaire	MXO	Ni(ClO3)2	Ni(ClO{_3})_{2}	chlorate de nickel(II)	225	133
+Sel binaire	MX	SrBr2	SrBr_{2}	bromure de strontium	248	102
+Sel binaire	MX	PbI2	PbI_{2}	iodure de plomb(II)	461	0,069
+Sel binaire	MX	AlF3	AlF_{3}	fluorure d'aluminium	84	0,67
+Sel ternaire	MXO	Ba(MnO4)2	Ba(MnO{_4})_{2}	permanganate de baryum	375	0,015
+Sel ternaire	MXO	Tl2SeO4	Tl_{2}SeO{_4}	sélénate de thallium(I)	551	2,8
+Sel ternaire	MXO	ZnSO4	ZnSO{_4}	sulfate de zinc(II)	161	53,8
+Sel ternaire	MXO	AgClO4	AgClO{_4}	perchlorate d'argent(I)	207	532,9
+Sel ternaire	MXO	Li2CO3	Li_{2}CO{_3}	carbonate de lithium	74	1,33
+Sel ternaire	MXO	CaCrO4	CaCrO{_4}	chromate de calcium	156	2,25
 Sel ternaire	MXO	CsIO3	CsIO{_3}	iodate de césium	308	2,6
-Sel ternaire	MXO	CsC2H3O2	CsCH{_2}COOH	acetate de césium	192	1010
+Sel ternaire	MXO	CdSO4	CdSO{_4}	sulfate de cadmium(II)	208	76,6
+Sel ternaire	MXO	NaClO4	NaClO{_4}	perchlorate de sodium	122	201
+Sel ternaire	MXO	NaIO3	NaIO{_3}	iodate de sodium	198	8,08
+Sel ternaire	MXO	Hg(ClO3)2	Hg(ClO{_3})_{2}	chlorate de mercure(II)	367	25
+Sel ternaire	MXO	RbClO4	RbClO{_4}	perchlorate de rubidium	184	1,55
+Sel ternaire	MXO	TlNO3	TlNO{_3}	nitrate de thallium(I)	266	9,55
+Sel ternaire	MXO	AgNO3	AgNO{_3}	nitrate d'argent(I)	170	216
+Sel binaire	MX	NiCl2	NiCl_{2}	chlorure de nickel(II)	129	66,8
+Sel ternaire	MXO	Na2SeO4	Na_{2}SeO{_4}	sélénate de sodium	189	26,9
+Sel ternaire	MXO	LiC2H3O2	LiCH{_2}COOH	acetate de lithium	66	40,8
+Sel ternaire	MXO	Na3PO4	Na_{3}PO{_4}	phosphate de sodium	164	12,1
+Sel binaire	MX	FeCl2	FeCl_{2}	chlorure de fer(II)	126	62,5
+Sel ternaire	MXO	SrCrO4	SrCrO{_4}	chromate de strontium	204	0,085
+Sel ternaire	MXO	CsClO4	CsClO{_4}	perchlorate de césium	232	1,6
+Sel ternaire	MXO	LiBrO3	LiBrO{_3}	bromate de lithium	135	179
+Sel ternaire	MXO	Co(NO2)2	Co(NO{_2})_{2}	nitrite de cobalt(II)	151	0,4
+Sel ternaire	MXO	Li3PO4	Li_{3}PO{_4}	phosphate de lithium	116	0,03821
+Sel ternaire	MXO	Ca(IO3)2	Ca(IO{_3})_{2}	iodate de calcium	390	0,24
+Sel binaire	MX	ZnF2	ZnF_{2}	fluorure de zinc(II)	103	1,6
+Sel ternaire	MXO	Cs2SO4	Cs_{2}SO{_4}	sulfate de césium	362	179
+Sel ternaire	MXO	KC2H3O2	KCH{_2}COOH	acetate de potassium	98	256
+Sel ternaire	MXO	AgNO2	AgNO{_2}	nitrite d'argent(I)	154	0,34
+Sel binaire	MX	CoF2	CoF_{2}	fluorure de cobalt(II)	97	1,36
+Sel ternaire	MXO	Fe(IO3)3	Fe(IO{_3})_{3}	iodate de fer(III)	581	0,36
 Sel ternaire	MXO	Cd(ClO4)2	Cd(ClO{_4})_{2}	perchlorate de cadmium(II)	310	188
+Sel ternaire	MXO	CsNO3	CsNO{_3}	nitrate de césium	195	23
+Sel ternaire	MXO	AgMnO4	AgMnO{_4}	permanganate d'argent(I)	227	0,9
+Sel binaire	MX	BaF2	BaF_{2}	fluorure de baryum	175	0,16
+Sel binaire	MX	CoBr2	CoBr_{2}	bromure de cobalt(II)	219	112
+Sel binaire	MX	SbCl3	SbCl_{3}	chlorure d'antimoine	227	910
+Sel ternaire	MXO	Mg(NO3)2	Mg(NO{_3})_{2}	nitrate de magnésium	148	69,5
+Sel ternaire	MXO	K2SeO4	K_{2}SeO{_4}	sélénate de potassium	221	111
+Sel ternaire	MXO	NaNO3	NaNO{_3}	nitrate de sodium	85	87,6
+Sel ternaire	MXO	AgC2H3O2	AgCH{_2}COOH	acetate d'argent(I)	167	1,05
+Sel ternaire	MXO	BeCO3	BeCO{_3}	carbonate de béryllium	69	0,218
+Sel ternaire	MXO	Ba(ClO2)2	Ba(ClO{_2})_{2}	chlorite de baryum	271	45,4
+Sel binaire	MX	LiF	LiF	fluorure de lithium	26	0,16
+Sel ternaire	MXO	Ni(NO3)2	Ni(NO{_3})_{2}	nitrate de nickel(II)	183	94,2
+Sel ternaire	MXO	K2CrO4	K_{2}CrO{_4}	chromate de potassium	194	63,7
+Sel ternaire	MXO	KClO3	KClO{_3}	chlorate de potassium	122	7,3
+Sel ternaire	MXO	CsC2H3O2	CsCH{_2}COOH	acetate de césium	192	1010
+Sel binaire	MX	CdCl2	CdCl_{2}	chlorure de cadmium(II)	182	135
+Sel ternaire	MXO	LiNO2	LiNO{_2}	nitrite de lithium	53	96,8
+Sel ternaire	MXO	Cu(ClO3)2	Cu(ClO{_3})_{2}	chlorate de cuivre(II)	230	242
+Sel ternaire	MXO	Pb(C2H3O2)2	Pb(CH{_2}COOH)_{2}	acetate de plomb(II)	325	44,3
+Sel binaire	MX	TlF	TlF	fluorure de thallium(I)	223	78
+Sel ternaire	MXO	Sr(C2H3O2)2	Sr(CH{_2}COOH)_{2}	acetate de strontium	206	41,1
+Sel ternaire	MXO	Cd(ClO3)2	Cd(ClO{_3})_{2}	chlorate de cadmium(II)	278	322
+Sel ternaire	MXO	Ba(CN)2	Ba(CN)_{2}	cyanure de baryum	189	80
+Sel ternaire	MXO	CuCrO4	CuCrO{_4}	chromate de cuivre(II)	180	0,03407
+Sel ternaire	MXO	AgBrO3	AgBrO{_3}	bromate d'argent(I)	236	0,16
+Sel ternaire	MXO	BeSO4	BeSO{_4}	sulfate de béryllium	105	39,1
+Sel binaire	MX	NiI2	NiI_{2}	iodure de nickel(II)	313	148
+Sel ternaire	MXO	Ca(ClO4)2	Ca(ClO{_4})_{2}	perchlorate de calcium	238	188
+Sel ternaire	MXO	Mg(C2H3O2)2	Mg(CH{_2}COOH)_{2}	acetate de magnésium	142	53,4
+Sel ternaire	MXO	Cd(CN)2	Cd(CN)_{2}	cyanure de cadmium(II)	164	0,022
+Sel ternaire	MXO	Mn(NO3)2	Mn(NO{_3})_{2}	nitrate de manganèse(II)	179	139
+Sel ternaire	MXO	Ag2SO4	Ag_{2}SO{_4}	sulfate d'argent(I)	312	0,8
+Sel ternaire	MXO	CoSO4	CoSO{_4}	sulfate de cobalt(II)	155	36,1
+Sel binaire	MX	PbCl2	PbCl_{2}	chlorure de plomb(II)	277	1
+Sel ternaire	MXO	TlCN	TlCN	cyanure de thallium(I)	230	16,8
+Sel ternaire	MXO	Co(ClO3)2	Co(ClO{_3})_{2}	chlorate de cobalt(II)	225	180
+Sel ternaire	MXO	Ba(NO3)2	Ba(NO{_3})_{2}	nitrate de baryum	261	9,02
+Sel ternaire	MXO	Ni(IO3)2	Ni(IO{_3})_{2}	iodate de nickel(II)	409	0,062
+Sel ternaire	MXO	Li2SO4	Li_{2}SO{_4}	sulfate de lithium	110	34,8
+Sel ternaire	MXO	NaClO3	NaClO{_3}	chlorate de sodium	106	95,9
+Sel ternaire	MXO	Ca(BrO3)2	Ca(BrO{_3})_{2}	bromate de calcium	296	230
+Sel ternaire	MXO	KBrO3	KBrO{_3}	bromate de potassium	167	6,91
+Sel ternaire	MXO	Ba(C2H3O2)2	Ba(CH{_2}COOH)_{2}	acetate de baryum	255	72
+Sel ternaire	MXO	Tl2SO4	Tl_{2}SO{_4}	sulfate de thallium(I)	504	4,87
+Sel ternaire	MXO	(NH4)2CO3	{NH_{4}}_{2}CO{_3}	carbonate d'ammonium	96	100
+Sel ternaire	MXO	Mg(ClO4)2	Mg(ClO{_4})_{2}	perchlorate de magnésium	222	49,6
+Sel ternaire	MXO	Ba(ClO3)2	Ba(ClO{_3})_{2}	chlorate de baryum	303	25,26
+Sel ternaire	MXO	Rb2SO4	Rb_{2}SO{_4}	sulfate de rubidium	266	48,1
+Sel ternaire	MXO	Be(NO3)2	Be(NO{_3})_{2}	nitrate de béryllium	133	108
+Sel ternaire	MXO	Ce(NO3)3	Ce(NO{_3})_{3}	nitrate de cérium	326	234
+Sel ternaire	MXO	Ag2Cr2O7	Ag_{2}Cr{_2}O{_7}	dichromate d'argent(I)	432	0,159
+Sel binaire	MX	CoCl2	CoCl_{2}	chlorure de cobalt(II)	129	52,9
+Sel ternaire	MXO	CdSeO4	CdSeO{_4}	sélénate de cadmium(II)	255	64
+Sel ternaire	MXO	Tl3PO4	Tl_{3}PO{_4}	phosphate de thallium(I)	707	0,15
+Sel ternaire	MXO	SrSeO4	SrSeO{_4}	sélénate de strontium	231	0,656
+Sel ternaire	MXO	CsMnO4	CsMnO{_4}	permanganate de césium	252	0,228
+Sel ternaire	MXO	Ce(C2H3O2)3	Ce(CH{_2}COOH)_{3}	acetate de cérium	317	0,35
+Sel ternaire	MXO	Rb2Cr2O7	Rb_{2}Cr{_2}O{_7}	dichromate de rubidium	386	5,9
+Sel ternaire	MXO	Fe(ClO4)3	Fe(ClO{_4})_{3}	perchlorate de fer(III)	353	368
+Sel ternaire	MXO	(NH4)2SO4	{NH_{4}}_{2}SO{_4}	sulfate d'ammonium	132	75,4
+Sel ternaire	MXO	Zn(MnO4)2	Zn(MnO{_4})_{2}	permanganate de zinc(II)	303	33,3
+Sel ternaire	MXO	RbClO3	RbClO{_3}	chlorate de rubidium	168	5,4
+Sel ternaire	MXO	Rb2CrO4	Rb_{2}CrO{_4}	chromate de rubidium	286	73,6
+Sel ternaire	MXO	Cd(BrO3)2	Cd(BrO{_3})_{2}	bromate de cadmium(II)	368	125
+Sel ternaire	MXO	(NH4)2SeO4	{NH_{4}}_{2}SeO{_4}	sélénate d'ammonium	179	115
+Sel ternaire	MXO	(NH4)2CrO4	{NH_{4}}_{2}CrO{_4}	chromate d'ammonium	152	34

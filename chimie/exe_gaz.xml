@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<quiz> 
+<question type="category"> 
+<category> 
+<text>$course$/Chimie/Volume molaire gazeux</text> 
+</category> 
+</question> 
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(0,30972\) [mol] de dioxyde de carbone (CNTP)?</p><p>V={2:NUMERICAL:=6.9377:0.208131}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( CO_{2} \)<br/>\(n=0,30972[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=0,30972 \cdot 22,4 \ \rightarrow \ V=6,9377 [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=6,9377[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quelle est la masse de \(246,11\) [L] (CNTP) de dioxyde de soufre?</p><p>m={2:NUMERICAL:=703.16:21.0948}{1:MC:[g/mol]~[mol]~=[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( SO_{2} \)<br/>\(M=64[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=246,11[L]\) </p><br/><p><b>Inconnue</b><br/>m=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{246,11}{22,4} \ \rightarrow \ n=10,987[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=10,987 \cdot 64 \ \rightarrow \ m=703,16 [g]\)</p><br/><p><b>Réponse</b><br/>La masse vaut : \(m=703,16[g]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(1,6786 \times 10^{-03}\) [mol] de diazote (CNTP)?</p><p>V={2:NUMERICAL:=0.037601:0.0011280300000000001}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( N_{2} \)<br/>\(n=1,6786 \times 10^{-03}[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=1,6786 \times 10^{-03} \cdot 22,4 \ \rightarrow \ V=3,7601 \times 10^{-02} [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=3,7601 \times 10^{-02}[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(5,1938\) [mol] de dioxyde de soufre (CNTP)?</p><p>V={2:NUMERICAL:=116.34:3.4901999999999997}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( SO_{2} \)<br/>\(n=5,1938[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=5,1938 \cdot 22,4 \ \rightarrow \ V=116,34 [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=116,34[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Combien de moles y'a-t-il dans \(0,1545\) [L] de diazote (CNTP)?</p><p>n={2:NUMERICAL:=0.0068971:0.000206913}{1:MC:[g/mol]~=[mol]~[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( N_{2} \)<br/>\(V_{gaz}\)=0,1545[L] </p><br/><p><b>Inconnue</b><br/>n=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4}\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V}{22,4}\ \rightarrow \ n=\frac{0,1545}{22,4} \ \rightarrow \ n=6,8971 \times 10^{-03}[mol]\)</p><br/><p><b>Réponse</b><br/>Le nombre de moles est de  : \( n=6,8971 \times 10^{-03}[mol]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Combien de moles y'a-t-il dans \(1,0656 \times 10^{-02}\) [L] de diazote (CNTP)?</p><p>n={2:NUMERICAL:=0.00047571000000000007:1.4271300000000002e-05}{1:MC:[g/mol]~=[mol]~[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( N_{2} \)<br/>\(V_{gaz}\)=1,0656 \times 10^{-02}[L] </p><br/><p><b>Inconnue</b><br/>n=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4}\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V}{22,4}\ \rightarrow \ n=\frac{1,0656 \times 10^{-02}}{22,4} \ \rightarrow \ n=4,7571 \times 10^{-04}[mol]\)</p><br/><p><b>Réponse</b><br/>Le nombre de moles est de  : \( n=4,7571 \times 10^{-04}[mol]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(0,25261\) [mol] de dioxyde d'azote (CNTP)?</p><p>V={2:NUMERICAL:=5.6585:0.169755}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( NO_{2} \)<br/>\(n=0,25261[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=0,25261 \cdot 22,4 \ \rightarrow \ V=5,6585 [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=5,6585[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quelle est la masse de \(6,7435\) [L] (CNTP) de dichlore?</p><p>m={2:NUMERICAL:=21.374:0.64122}{1:MC:[g/mol]~[mol]~=[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( Cl_{2} \)<br/>\(M=71[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=6,7435[L]\) </p><br/><p><b>Inconnue</b><br/>m=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{6,7435}{22,4} \ \rightarrow \ n=0,30105[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=0,30105 \cdot 71 \ \rightarrow \ m=21,374 [g]\)</p><br/><p><b>Réponse</b><br/>La masse vaut : \(m=21,374[g]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>On dissous complètement \(108,67\) [L] de dioxyde de soufre (CNTP) dans \(1,7\) [L] d'eau.<br/>Quelle sera la concentration massique de la solution obtenue?</p><p>\(\gamma \)={2:NUMERICAL:=182.64:5.4792}{1:MC:[g/mol]~[mol]~[g]~[L]~=[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( SO_{2} \)<br/>\(M=64[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=108,67[L]\) <br/>\(V_{sol}=1,7[L]\) </p><br/><p><b>Inconnue</b><br/>\(\gamma\)=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)<br/>\(\gamma=\frac{m}{V_{sol}} \)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{108,67}{22,4} \ \rightarrow \ n=4,8514[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=4,8514 \cdot 64 \ \rightarrow \ m=310,49 [g]\)<br/>\(\gamma=\frac{m}{V_{sol}} \ \rightarrow \ \gamma=\frac{310,49}{1,7} \ \rightarrow \ \gamma=182,64[g/L]\)</p><br/><p><b>Réponse</b><br/>La concentration massique vaut : \( \gamma=182,64[g \cdot L^{-1}]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(3,2050 \times 10^{-03}\) [mol] de diazote (CNTP)?</p><p>V={2:NUMERICAL:=0.071792:0.00215376}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( N_{2} \)<br/>\(n=3,2050 \times 10^{-03}[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=3,2050 \times 10^{-03} \cdot 22,4 \ \rightarrow \ V=7,1792 \times 10^{-02} [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=7,1792 \times 10^{-02}[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(6,7634\) [mol] de dioxyde de soufre (CNTP)?</p><p>V={2:NUMERICAL:=151.5:4.545}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( SO_{2} \)<br/>\(n=6,7634[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=6,7634 \cdot 22,4 \ \rightarrow \ V=151,5 [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=151,5[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quelle est la masse de \(1,216\) [L] (CNTP) de dichlore?</p><p>m={2:NUMERICAL:=3.8544:0.115632}{1:MC:[g/mol]~[mol]~=[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( Cl_{2} \)<br/>\(M=71[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=1,216[L]\) </p><br/><p><b>Inconnue</b><br/>m=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{1,216}{22,4} \ \rightarrow \ n=5,4287 \times 10^{-02}[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=5,4287 \times 10^{-02} \cdot 71 \ \rightarrow \ m=3,8544 [g]\)</p><br/><p><b>Réponse</b><br/>La masse vaut : \(m=3,8544[g]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quelle est la masse de \(18,76\) [L] (CNTP) de dioxyde de carbone?</p><p>m={2:NUMERICAL:=36.85:1.1055000000000001}{1:MC:[g/mol]~[mol]~=[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( CO_{2} \)<br/>\(M=44[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=18,76[L]\) </p><br/><p><b>Inconnue</b><br/>m=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{18,76}{22,4} \ \rightarrow \ n=0,8375[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=0,8375 \cdot 44 \ \rightarrow \ m=36,85 [g]\)</p><br/><p><b>Réponse</b><br/>La masse vaut : \(m=36,85[g]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>On dissous complètement \(44,211\) [L] de dioxygène (CNTP) dans \(6,18\) [L] d'eau.<br/>Quelle sera la concentration massique de la solution obtenue?</p><p>\(\gamma \)={2:NUMERICAL:=10.22:0.30660000000000004}{1:MC:[g/mol]~[mol]~[g]~[L]~=[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( O_{2} \)<br/>\(M=32[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=44,211[L]\) <br/>\(V_{sol}=6,18[L]\) </p><br/><p><b>Inconnue</b><br/>\(\gamma\)=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)<br/>\(\gamma=\frac{m}{V_{sol}} \)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{44,211}{22,4} \ \rightarrow \ n=1,9737[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=1,9737 \cdot 32 \ \rightarrow \ m=63,16 [g]\)<br/>\(\gamma=\frac{m}{V_{sol}} \ \rightarrow \ \gamma=\frac{63,16}{6,18} \ \rightarrow \ \gamma=10,22[g/L]\)</p><br/><p><b>Réponse</b><br/>La concentration massique vaut : \( \gamma=10,22[g \cdot L^{-1}]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quelle est la masse de \(13,589\) [L] (CNTP) de dioxyde de carbone?</p><p>m={2:NUMERICAL:=26.693:0.8007900000000001}{1:MC:[g/mol]~[mol]~=[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( CO_{2} \)<br/>\(M=44[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=13,589[L]\) </p><br/><p><b>Inconnue</b><br/>m=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{13,589}{22,4} \ \rightarrow \ n=0,60665[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=0,60665 \cdot 44 \ \rightarrow \ m=26,693 [g]\)</p><br/><p><b>Réponse</b><br/>La masse vaut : \(m=26,693[g]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(0,3613\) [mol] de dioxyde d'azote (CNTP)?</p><p>V={2:NUMERICAL:=8.0931:0.24279299999999998}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( NO_{2} \)<br/>\(n=0,3613[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=0,3613 \cdot 22,4 \ \rightarrow \ V=8,0931 [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=8,0931[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Combien de moles y'a-t-il dans \(21,934\) [L] de sulfure d'hydrogène (CNTP)?</p><p>n={2:NUMERICAL:=0.97918:0.029375400000000003}{1:MC:[g/mol]~=[mol]~[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( H_{2}S \)<br/>\(V_{gaz}\)=21,934[L] </p><br/><p><b>Inconnue</b><br/>n=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4}\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V}{22,4}\ \rightarrow \ n=\frac{21,934}{22,4} \ \rightarrow \ n=0,97918[mol]\)</p><br/><p><b>Réponse</b><br/>Le nombre de moles est de  : \( n=0,97918[mol]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(3,1356\) [mol] de dioxyde de soufre (CNTP)?</p><p>V={2:NUMERICAL:=70.237:2.10711}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( SO_{2} \)<br/>\(n=3,1356[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=3,1356 \cdot 22,4 \ \rightarrow \ V=70,237 [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=70,237[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quelle est la masse de \(7,6592\) [L] (CNTP) de dioxyde de carbone?</p><p>m={2:NUMERICAL:=15.045:0.45135}{1:MC:[g/mol]~[mol]~=[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( CO_{2} \)<br/>\(M=44[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=7,6592[L]\) </p><br/><p><b>Inconnue</b><br/>m=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{7,6592}{22,4} \ \rightarrow \ n=0,34193[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=0,34193 \cdot 44 \ \rightarrow \ m=15,045 [g]\)</p><br/><p><b>Réponse</b><br/>La masse vaut : \(m=15,045[g]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>On dissous complètement \(4,3113\) [L] de sulfure d'hydrogène (CNTP) dans \(8,18\) [L] d'eau.<br/>Quelle sera la concentration massique de la solution obtenue?</p><p>\(\gamma \)={2:NUMERICAL:=0.8:0.024000000000000004}{1:MC:[g/mol]~[mol]~[g]~[L]~=[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( H_{2}S \)<br/>\(M=34[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=4,3113[L]\) <br/>\(V_{sol}=8,18[L]\) </p><br/><p><b>Inconnue</b><br/>\(\gamma\)=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)<br/>\(\gamma=\frac{m}{V_{sol}} \)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{4,3113}{22,4} \ \rightarrow \ n=0,19247[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=0,19247 \cdot 34 \ \rightarrow \ m=6,544 [g]\)<br/>\(\gamma=\frac{m}{V_{sol}} \ \rightarrow \ \gamma=\frac{6,544}{8,18} \ \rightarrow \ \gamma=0,8[g/L]\)</p><br/><p><b>Réponse</b><br/>La concentration massique vaut : \( \gamma=0,8[g \cdot L^{-1}]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(0,39975\) [mol] de dichlore (CNTP)?</p><p>V={2:NUMERICAL:=8.9544:0.268632}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( Cl_{2} \)<br/>\(n=0,39975[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=0,39975 \cdot 22,4 \ \rightarrow \ V=8,9544 [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=8,9544[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quelle est la masse de \(17,203\) [L] (CNTP) de dioxyde de carbone?</p><p>m={2:NUMERICAL:=33.791:1.0137299999999998}{1:MC:[g/mol]~[mol]~=[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( CO_{2} \)<br/>\(M=44[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=17,203[L]\) </p><br/><p><b>Inconnue</b><br/>m=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{17,203}{22,4} \ \rightarrow \ n=0,76799[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=0,76799 \cdot 44 \ \rightarrow \ m=33,791 [g]\)</p><br/><p><b>Réponse</b><br/>La masse vaut : \(m=33,791[g]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>On dissous complètement \(13,789\) [L] de dioxyde de carbone (CNTP) dans \(11,55\) [L] d'eau.<br/>Quelle sera la concentration massique de la solution obtenue?</p><p>\(\gamma \)={2:NUMERICAL:=2.345:0.07035}{1:MC:[g/mol]~[mol]~[g]~[L]~=[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( CO_{2} \)<br/>\(M=44[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=13,789[L]\) <br/>\(V_{sol}=11,55[L]\) </p><br/><p><b>Inconnue</b><br/>\(\gamma\)=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)<br/>\(\gamma=\frac{m}{V_{sol}} \)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{13,789}{22,4} \ \rightarrow \ n=0,61556[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=0,61556 \cdot 44 \ \rightarrow \ m=27,085 [g]\)<br/>\(\gamma=\frac{m}{V_{sol}} \ \rightarrow \ \gamma=\frac{27,085}{11,55} \ \rightarrow \ \gamma=2,345[g/L]\)</p><br/><p><b>Réponse</b><br/>La concentration massique vaut : \( \gamma=2,345[g \cdot L^{-1}]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(0,15674\) [mol] de dioxyde d'azote (CNTP)?</p><p>V={2:NUMERICAL:=3.511:0.10533000000000001}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( NO_{2} \)<br/>\(n=0,15674[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=0,15674 \cdot 22,4 \ \rightarrow \ V=3,511 [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=3,511[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quelle est la masse de \(5,6065 \times 10^{-02}\) [L] (CNTP) de diazote?</p><p>m={2:NUMERICAL:=0.07008:0.0021024}{1:MC:[g/mol]~[mol]~=[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( N_{2} \)<br/>\(M=28[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=5,6065 \times 10^{-02}[L]\) </p><br/><p><b>Inconnue</b><br/>m=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{5,6065 \times 10^{-02}}{22,4} \ \rightarrow \ n=2,5029 \times 10^{-03}[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=2,5029 \times 10^{-03} \cdot 28 \ \rightarrow \ m=7,0080 \times 10^{-02} [g]\)</p><br/><p><b>Réponse</b><br/>La masse vaut : \(m=7,0080 \times 10^{-02}[g]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Combien de moles y'a-t-il dans \(638,6\) [L] de dioxyde de soufre (CNTP)?</p><p>n={2:NUMERICAL:=28.509:0.85527}{1:MC:[g/mol]~=[mol]~[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( SO_{2} \)<br/>\(V_{gaz}\)=638,6[L] </p><br/><p><b>Inconnue</b><br/>n=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4}\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V}{22,4}\ \rightarrow \ n=\frac{638,6}{22,4} \ \rightarrow \ n=28,509[mol]\)</p><br/><p><b>Réponse</b><br/>Le nombre de moles est de  : \( n=28,509[mol]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(0,4635\) [mol] de dichlore (CNTP)?</p><p>V={2:NUMERICAL:=10.382:0.31146}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( Cl_{2} \)<br/>\(n=0,4635[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=0,4635 \cdot 22,4 \ \rightarrow \ V=10,382 [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=10,382[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quelle est la masse de \(21,926\) [L] (CNTP) de dichlore?</p><p>m={2:NUMERICAL:=69.496:2.08488}{1:MC:[g/mol]~[mol]~=[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( Cl_{2} \)<br/>\(M=71[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=21,926[L]\) </p><br/><p><b>Inconnue</b><br/>m=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{21,926}{22,4} \ \rightarrow \ n=0,97882[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=0,97882 \cdot 71 \ \rightarrow \ m=69,496 [g]\)</p><br/><p><b>Réponse</b><br/>La masse vaut : \(m=69,496[g]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(5,6900 \times 10^{-03}\) [mol] de diazote (CNTP)?</p><p>V={2:NUMERICAL:=0.12746:0.0038237999999999996}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( N_{2} \)<br/>\(n=5,6900 \times 10^{-03}[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=5,6900 \times 10^{-03} \cdot 22,4 \ \rightarrow \ V=0,12746 [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=0,12746[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>On dissous complètement \(715,3\) [L] de dioxyde de soufre (CNTP) dans \(11,19\) [L] d'eau.<br/>Quelle sera la concentration massique de la solution obtenue?</p><p>\(\gamma \)={2:NUMERICAL:=182.64:5.4792}{1:MC:[g/mol]~[mol]~[g]~[L]~=[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( SO_{2} \)<br/>\(M=64[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=715,3[L]\) <br/>\(V_{sol}=11,19[L]\) </p><br/><p><b>Inconnue</b><br/>\(\gamma\)=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)<br/>\(\gamma=\frac{m}{V_{sol}} \)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{715,3}{22,4} \ \rightarrow \ n=31,933[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=31,933 \cdot 64 \ \rightarrow \ m=2043,7 [g]\)<br/>\(\gamma=\frac{m}{V_{sol}} \ \rightarrow \ \gamma=\frac{2043,7}{11,19} \ \rightarrow \ \gamma=182,64[g/L]\)</p><br/><p><b>Réponse</b><br/>La concentration massique vaut : \( \gamma=182,64[g \cdot L^{-1}]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(8,2071 \times 10^{-04}\) [mol] de diazote (CNTP)?</p><p>V={2:NUMERICAL:=0.018384:0.0005515200000000001}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( N_{2} \)<br/>\(n=8,2071 \times 10^{-04}[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=8,2071 \times 10^{-04} \cdot 22,4 \ \rightarrow \ V=1,8384 \times 10^{-02} [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=1,8384 \times 10^{-02}[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>On dissous complètement \(55,189\) [L] de dioxygène (CNTP) dans \(6,75\) [L] d'eau.<br/>Quelle sera la concentration massique de la solution obtenue?</p><p>\(\gamma \)={2:NUMERICAL:=11.68:0.3504}{1:MC:[g/mol]~[mol]~[g]~[L]~=[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( O_{2} \)<br/>\(M=32[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=55,189[L]\) <br/>\(V_{sol}=6,75[L]\) </p><br/><p><b>Inconnue</b><br/>\(\gamma\)=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)<br/>\(\gamma=\frac{m}{V_{sol}} \)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{55,189}{22,4} \ \rightarrow \ n=2,4638[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=2,4638 \cdot 32 \ \rightarrow \ m=78,84 [g]\)<br/>\(\gamma=\frac{m}{V_{sol}} \ \rightarrow \ \gamma=\frac{78,84}{6,75} \ \rightarrow \ \gamma=11,68[g/L]\)</p><br/><p><b>Réponse</b><br/>La concentration massique vaut : \( \gamma=11,68[g \cdot L^{-1}]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(1,029\) [mol] de dichlore (CNTP)?</p><p>V={2:NUMERICAL:=23.05:0.6915}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( Cl_{2} \)<br/>\(n=1,029[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=1,029 \cdot 22,4 \ \rightarrow \ V=23,05 [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=23,05[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume (CNTP) occupé par \(52,852\) [g] de dioxygène?</p><p>V={2:NUMERICAL:=36.996:1.10988}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( O_{2} \)<br/>\(M=32[g \cdot mol^{-1}]\)<br/>\(m=52,852[g] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{m}{M}\)<br/>\(n=\frac{V_{gaz}}{22,4}  \ \rightarrow \ V_{gaz}=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{m}{M} \ \rightarrow \ n=\frac{52,852}{32} \ \rightarrow \ n=1,6516[mol]\)<br/>\(V_{gaz}=n \cdot 22,4 \ \rightarrow \ V_{gaz}=1,6516 \cdot 22,4 \ \rightarrow \ V_{gaz}=36,996 [L]\)</p><br/><p><b>Réponse</b><br/>Le volume vaut : \(V_{gaz}\)=36,996[L].</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(0,23176\) [mol] de sulfure d'hydrogène (CNTP)?</p><p>V={2:NUMERICAL:=5.1914:0.155742}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( H_{2}S \)<br/>\(n=0,23176[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=0,23176 \cdot 22,4 \ \rightarrow \ V=5,1914 [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=5,1914[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume (CNTP) occupé par \(4,768\) [g] de sulfure d'hydrogène?</p><p>V={2:NUMERICAL:=3.1414:0.09424199999999999}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( H_{2}S \)<br/>\(M=34[g \cdot mol^{-1}]\)<br/>\(m=4,768[g] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{m}{M}\)<br/>\(n=\frac{V_{gaz}}{22,4}  \ \rightarrow \ V_{gaz}=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{m}{M} \ \rightarrow \ n=\frac{4,768}{34} \ \rightarrow \ n=0,14024[mol]\)<br/>\(V_{gaz}=n \cdot 22,4 \ \rightarrow \ V_{gaz}=0,14024 \cdot 22,4 \ \rightarrow \ V_{gaz}=3,1414 [L]\)</p><br/><p><b>Réponse</b><br/>Le volume vaut : \(V_{gaz}\)=3,1414[L].</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume (CNTP) occupé par \(38,376\) [g] de sulfure d'hydrogène?</p><p>V={2:NUMERICAL:=25.283:0.75849}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( H_{2}S \)<br/>\(M=34[g \cdot mol^{-1}]\)<br/>\(m=38,376[g] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{m}{M}\)<br/>\(n=\frac{V_{gaz}}{22,4}  \ \rightarrow \ V_{gaz}=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{m}{M} \ \rightarrow \ n=\frac{38,376}{34} \ \rightarrow \ n=1,1287[mol]\)<br/>\(V_{gaz}=n \cdot 22,4 \ \rightarrow \ V_{gaz}=1,1287 \cdot 22,4 \ \rightarrow \ V_{gaz}=25,283 [L]\)</p><br/><p><b>Réponse</b><br/>Le volume vaut : \(V_{gaz}\)=25,283[L].</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Combien de moles y'a-t-il dans \(309,23\) [L] de dioxyde de soufre (CNTP)?</p><p>n={2:NUMERICAL:=13.805:0.41415}{1:MC:[g/mol]~=[mol]~[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( SO_{2} \)<br/>\(V_{gaz}\)=309,23[L] </p><br/><p><b>Inconnue</b><br/>n=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4}\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V}{22,4}\ \rightarrow \ n=\frac{309,23}{22,4} \ \rightarrow \ n=13,805[mol]\)</p><br/><p><b>Réponse</b><br/>Le nombre de moles est de  : \( n=13,805[mol]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume (CNTP) occupé par \(1305,9\) [g] de dioxyde de soufre?</p><p>V={2:NUMERICAL:=457.05:13.711500000000001}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( SO_{2} \)<br/>\(M=64[g \cdot mol^{-1}]\)<br/>\(m=1305,9[g] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{m}{M}\)<br/>\(n=\frac{V_{gaz}}{22,4}  \ \rightarrow \ V_{gaz}=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{m}{M} \ \rightarrow \ n=\frac{1305,9}{64} \ \rightarrow \ n=20,404[mol]\)<br/>\(V_{gaz}=n \cdot 22,4 \ \rightarrow \ V_{gaz}=20,404 \cdot 22,4 \ \rightarrow \ V_{gaz}=457,05 [L]\)</p><br/><p><b>Réponse</b><br/>Le volume vaut : \(V_{gaz}\)=457,05[L].</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume (CNTP) occupé par \(65,875\) [g] de dichlore?</p><p>V={2:NUMERICAL:=20.783:0.62349}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( Cl_{2} \)<br/>\(M=71[g \cdot mol^{-1}]\)<br/>\(m=65,875[g] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{m}{M}\)<br/>\(n=\frac{V_{gaz}}{22,4}  \ \rightarrow \ V_{gaz}=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{m}{M} \ \rightarrow \ n=\frac{65,875}{71} \ \rightarrow \ n=0,92782[mol]\)<br/>\(V_{gaz}=n \cdot 22,4 \ \rightarrow \ V_{gaz}=0,92782 \cdot 22,4 \ \rightarrow \ V_{gaz}=20,783 [L]\)</p><br/><p><b>Réponse</b><br/>Le volume vaut : \(V_{gaz}\)=20,783[L].</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Combien de moles y'a-t-il dans \(20,111\) [L] de dioxyde de carbone (CNTP)?</p><p>n={2:NUMERICAL:=0.8978:0.026934}{1:MC:[g/mol]~=[mol]~[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( CO_{2} \)<br/>\(V_{gaz}\)=20,111[L] </p><br/><p><b>Inconnue</b><br/>n=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4}\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V}{22,4}\ \rightarrow \ n=\frac{20,111}{22,4} \ \rightarrow \ n=0,8978[mol]\)</p><br/><p><b>Réponse</b><br/>Le nombre de moles est de  : \( n=0,8978[mol]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(1,3318\) [mol] de sulfure d'hydrogène (CNTP)?</p><p>V={2:NUMERICAL:=29.832:0.8949600000000001}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( H_{2}S \)<br/>\(n=1,3318[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=1,3318 \cdot 22,4 \ \rightarrow \ V=29,832 [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=29,832[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>On dissous complètement \(373,32\) [L] de dioxyde de soufre (CNTP) dans \(5,84\) [L] d'eau.<br/>Quelle sera la concentration massique de la solution obtenue?</p><p>\(\gamma \)={2:NUMERICAL:=182.64:5.4792}{1:MC:[g/mol]~[mol]~[g]~[L]~=[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( SO_{2} \)<br/>\(M=64[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=373,32[L]\) <br/>\(V_{sol}=5,84[L]\) </p><br/><p><b>Inconnue</b><br/>\(\gamma\)=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)<br/>\(\gamma=\frac{m}{V_{sol}} \)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{373,32}{22,4} \ \rightarrow \ n=16,666[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=16,666 \cdot 64 \ \rightarrow \ m=1066,6 [g]\)<br/>\(\gamma=\frac{m}{V_{sol}} \ \rightarrow \ \gamma=\frac{1066,6}{5,84} \ \rightarrow \ \gamma=182,64[g/L]\)</p><br/><p><b>Réponse</b><br/>La concentration massique vaut : \( \gamma=182,64[g \cdot L^{-1}]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Combien de moles y'a-t-il dans \(33,878\) [L] de dichlore (CNTP)?</p><p>n={2:NUMERICAL:=1.5124:0.045372}{1:MC:[g/mol]~=[mol]~[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( Cl_{2} \)<br/>\(V_{gaz}\)=33,878[L] </p><br/><p><b>Inconnue</b><br/>n=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4}\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V}{22,4}\ \rightarrow \ n=\frac{33,878}{22,4} \ \rightarrow \ n=1,5124[mol]\)</p><br/><p><b>Réponse</b><br/>Le nombre de moles est de  : \( n=1,5124[mol]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>On dissous complètement \(13,883\) [L] de sulfure d'hydrogène (CNTP) dans \(13,17\) [L] d'eau.<br/>Quelle sera la concentration massique de la solution obtenue?</p><p>\(\gamma \)={2:NUMERICAL:=1.6:0.04800000000000001}{1:MC:[g/mol]~[mol]~[g]~[L]~=[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( H_{2}S \)<br/>\(M=34[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=13,883[L]\) <br/>\(V_{sol}=13,17[L]\) </p><br/><p><b>Inconnue</b><br/>\(\gamma\)=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)<br/>\(\gamma=\frac{m}{V_{sol}} \)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{13,883}{22,4} \ \rightarrow \ n=0,61976[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=0,61976 \cdot 34 \ \rightarrow \ m=21,072 [g]\)<br/>\(\gamma=\frac{m}{V_{sol}} \ \rightarrow \ \gamma=\frac{21,072}{13,17} \ \rightarrow \ \gamma=1,6[g/L]\)</p><br/><p><b>Réponse</b><br/>La concentration massique vaut : \( \gamma=1,6[g \cdot L^{-1}]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(10,252\) [mol] de dioxyde de soufre (CNTP)?</p><p>V={2:NUMERICAL:=229.64:6.8892}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( SO_{2} \)<br/>\(n=10,252[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=10,252 \cdot 22,4 \ \rightarrow \ V=229,64 [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=229,64[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Combien de moles y'a-t-il dans \(4,4287 \times 10^{-02}\) [L] de diazote (CNTP)?</p><p>n={2:NUMERICAL:=0.0019771000000000003:5.9313000000000006e-05}{1:MC:[g/mol]~=[mol]~[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( N_{2} \)<br/>\(V_{gaz}\)=4,4287 \times 10^{-02}[L] </p><br/><p><b>Inconnue</b><br/>n=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4}\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V}{22,4}\ \rightarrow \ n=\frac{4,4287 \times 10^{-02}}{22,4} \ \rightarrow \ n=1,9771 \times 10^{-03}[mol]\)</p><br/><p><b>Réponse</b><br/>Le nombre de moles est de  : \( n=1,9771 \times 10^{-03}[mol]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>On dissous complètement \(43,998\) [L] de dichlore (CNTP) dans \(11,94\) [L] d'eau.<br/>Quelle sera la concentration massique de la solution obtenue?</p><p>\(\gamma \)={2:NUMERICAL:=11.68:0.3504}{1:MC:[g/mol]~[mol]~[g]~[L]~=[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( Cl_{2} \)<br/>\(M=71[g \cdot mol^{-1}]\)<br/>\(V_{gaz}=43,998[L]\) <br/>\(V_{sol}=11,94[L]\) </p><br/><p><b>Inconnue</b><br/>\(\gamma\)=?</p><br/><p><b>Équations</b>s<br/>\(n=\frac{V_{gaz}}{22,4}\)<br/>\(n=\frac{m}{M} \ \rightarrow \ m=n \cdot M\)<br/>\(\gamma=\frac{m}{V_{sol}} \)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ n=\frac{43,998}{22,4} \ \rightarrow \ n=1,9642[mol]\)<br/>\(m=n \cdot M \ \rightarrow \ m=1,9642 \cdot 71 \ \rightarrow \ m=139,46 [g]\)<br/>\(\gamma=\frac{m}{V_{sol}} \ \rightarrow \ \gamma=\frac{139,46}{11,94} \ \rightarrow \ \gamma=11,68[g/L]\)</p><br/><p><b>Réponse</b><br/>La concentration massique vaut : \( \gamma=11,68[g \cdot L^{-1}]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Combien de moles y'a-t-il dans \(21,462\) [L] de dioxygène (CNTP)?</p><p>n={2:NUMERICAL:=0.95813:0.0287439}{1:MC:[g/mol]~=[mol]~[g]~[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( O_{2} \)<br/>\(V_{gaz}\)=21,462[L] </p><br/><p><b>Inconnue</b><br/>n=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4}\)</p><br/><p><b>Résolution</b><br/>\(n=\frac{V}{22,4}\ \rightarrow \ n=\frac{21,462}{22,4} \ \rightarrow \ n=0,95813[mol]\)</p><br/><p><b>Réponse</b><br/>Le nombre de moles est de  : \( n=0,95813[mol]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+<question type="cloze"> 
+<name> 
+<text>Volume molaire gazeux</text> 
+</name> 
+<questiontext format="html"> 
+<text><![CDATA[ <p>Quel est le volume occupé par \(2,1814 \times 10^{-03}\) [mol] de diazote (CNTP)?</p><p>V={2:NUMERICAL:=0.048863000000000004:0.0014658900000000003}{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p> ]]></text>  
+</questiontext>  
+<generalfeedback format="html">  
+<text><![CDATA[ <p><b>Données</b><br/>Formule : \( N_{2} \)<br/>\(n=2,1814 \times 10^{-03}[mol] \)</p><br/><p><b>Inconnue</b><br/>\(V_{gaz}\)=?</p><br/><p><b>Équation</b><br/>\(n=\frac{V_{gaz}}{22,4} \ \rightarrow \ V=n \cdot 22,4\)</p><br/><p><b>Résolution</b><br/>\(V=n \cdot 22,4 \ \rightarrow \ V=2,1814 \times 10^{-03} \cdot 22,4 \ \rightarrow \ V=4,8863 \times 10^{-02} [L]\)</p><br/><p><b>Réponse</b><br/>La volume est de  : \( V_{gaz}=4,8863 \times 10^{-02}[L]\).</p> ]]></text>  
+</generalfeedback>  
+<penalty>0.3333333</penalty>  
+<hidden>0</hidden>  
+</question>  
+
+</quiz>

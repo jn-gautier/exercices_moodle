@@ -7,14 +7,10 @@ hypochlorite	ClO	51	1	hypochloreux	ClO
 borate	BO3	59	3	borique	BO{_3}
 iodate	IO3	175	1	iodique	IO{_3}
 sulfite	SO3	80	2	sulfureux	SO{_3}
-sulfate	SO4	96	2	sulfurique	SO{_4}
+sulfate	SO4	64	2	sulfurique	SO{_4}
 phosphite	PO3	79	3	phosphoreux	PO{_3}
 phosphate	PO4	95	3	phosphorique	PO{_4}
 carbonate	CO3	60	2	carbonique	CO{_3}
 permanganate	MnO4	119	1	permanganique	MnO{_4}
-acetate	C2H3O2	59	1	acetique	CH{_2}COOH
 bromate	BrO3	128	1	bromique	BrO{_3}
 chromate	CrO4	116	2	chromique	CrO{_4}
-cyanure	CN	26	1	cyanhydrique	CN
-dichromate	Cr2O7	216	2	dichromique	Cr{_2}O{_7}
-sélénate	SeO4	143	2	sélénique	SeO{_4}

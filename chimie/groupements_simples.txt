@@ -3,6 +3,6 @@ nitrate	NO3	62	1	nitrique	NO{_3}
 chlorate	ClO3	83	1	chlorique	ClO{_3}
 chlorite	ClO2	67	1	chloreux	ClO{_2}
 sulfite	SO3	80	2	sulfureux	SO{_3}
-sulfate	SO4	64	2	sulfurique	SO{_4}
+sulfate	SO4	96	2	sulfurique	SO{_4}
 phosphate	PO4	95	3	phosphorique	PO{_4}
 carbonate	CO3	60	2	carbonique	CO{_3}

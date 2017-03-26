@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- 
 import random
 from copy import deepcopy,copy
+import re
 
 def convert_sci(nombre):
      nombre_sci='%.4E' %(nombre)
@@ -485,10 +486,21 @@ if __name__=="__main__":
          
          molecule.gene_valeurs()
          liste_molecules.append(molecule.nom)
-         molecule.enonce=molecule.enonce.replace(" de i"," d'i")
-         molecule.enonce=molecule.enonce.replace(" de a"," d'a")
-         molecule.enonce=molecule.enonce.replace(" de o"," d'o")
-         molecule.enonce=molecule.enonce.replace(" de h"," d'h")
+         
+         pattern=re.compile(r'(de )([aeiouh])')#on remplace les "de a","de h",... par un d avec une apostrophe
+         match=pattern.search(molecule.enonce)
+         if match:
+            sub="d'"+match.group(2)
+            molecule.enonce=re.sub(pattern,sub,molecule.enonce)
+         
+         
+         
+         pattern=re.compile(r"(NH_\{4\})(\}_\{\d\}[A-Z])")#j'ajoute les parenthèses autour du groupement NH4 lorsqu'il est suivi d'un indice
+         match=pattern.search(molecule.enonce)
+         if match:
+            sub='('+match.group(1)+')'+match.group(2)
+            molecule.enonce=re.sub(pattern,sub,molecule.enonce)
+         
          questionnaire.append(molecule)
      
      

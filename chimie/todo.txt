@@ -1,6 +1,9 @@
 TODO
 vérifier et modifier les groupements OH : ils se mettent avec des parenthèses lorsqu'il n'y en a qu'un
 
+le groupement NH4 ne se mets pas ave des parenthèses alors qu'il en faut
+
+
 créer un exercice sur le simple calcul des masses molaires
 
 séparer les exercices : 

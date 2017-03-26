@@ -170,6 +170,8 @@ class Base():
             self.formule+="(OH)"+str(self.indice_hydroxyle)
         else:
             self.formule+="OH"
+        
+        #self.formule=self.metal.symbole+str(self.metal.indice)+"(OH)"+str(self.indice_hydroxyle)
         self.formule=self.formule.replace("1","")
         
         self.latex=""
@@ -340,11 +342,8 @@ class Gene_molecule():
                  tentatives+=1
         
         
-        f = open('./liste_molecules.csv','w')
+        f = open('./liste_molecules_simples.csv','w')
         for question in questionnaire:
-            
-                
-            
             try:
                  dico_solub[question.formule]
                  f.write(question.famille)
@@ -397,7 +396,7 @@ if __name__=="__main__":
      dico_non_metaux={}
      dico_groupement={}
      
-     myfile=open('./metaux.txt', "r")
+     myfile=open('./metaux_simples.txt', "r")
      for ligne in myfile:
          liste_infos=ligne.rstrip('\n\r').split('\t')
          atome=Atome()
@@ -429,7 +428,7 @@ if __name__=="__main__":
          liste_non_metaux.append(atome.nom)
          dico_non_metaux[atome.nom]=atome
      
-     myfile=open('./groupements.txt', "r")
+     myfile=open('./groupements_simples.txt', "r")
      for ligne in myfile:
          liste_infos=ligne.rstrip('\n\r').split('\t')
          groupement=Groupement()
