@@ -32,7 +32,7 @@ def convert_sci(nombre):
          
      return (nombre,nombre_latex)
 
-class Corps(Object):
+class Corps(object):
     def __init__(self):
         self.nom="" #le nom du Corps
         self.form="" #la formule du corps au format latex
@@ -47,6 +47,12 @@ class Corps(Object):
         self.donnee="" #peut prendre la valeur vide,gaz,sol_mas,sol_mol,masse
         self.reponse="" #peut prendre la valeur vide,gaz,sol_mas,sol_mol,masse
         self.categorie="" #peut prendre la valeur R1,R2,R3,P1,P2,P3
+        self.moles_tex=""
+        self.masse_tex=""
+        self.cc_massique_tex=""
+        self.cc_molaire_tex=""
+        self.volume_solution_tex=""
+        self.volume_gaz_tex=""
     
     def resoudre(self):
         if self.donnee!="":
@@ -76,18 +82,32 @@ class Corps(Object):
             pass #on ne donne et on ne demande rien pour ce corps
     
     def valeurs_to_tex(self):
-        if self.moles!=0: self.moles,self.moles_tex=convert_sci(self.moles)
-        if self.masse!=0: self.masse,self.masse_tex=convert_sci(self.masse)
-        if self.cc_massique!=0:self.cc_massique,self.cc_massique_tex=convert_sci(self.cc_massique)
-        if self.cc_molaire!=0:self.cc_molaire,self.cc_molaire_tex=convert_sci(self.cc_molaire)
-        if self.volume_solution!=0:self.volume_solution,self.volume_solution_tex=convert_sci(self.volume_solution)
-        if self.volume_gaz!=0:self.volume_gaz,self.volume_gaz_tex=convert_sci(self.volume_gaz)
+        if (self.moles!=0) & (self.moles_tex==""): 
+            self.moles,self.moles_tex=convert_sci(self.moles)
+        if (self.masse!=0) & (self.masse_tex==""): 
+            self.masse,self.masse_tex=convert_sci(self.masse)
+        if (self.cc_massique!=0) & (self.cc_massique_tex==""):
+            self.cc_massique,self.cc_massique_tex=convert_sci(self.cc_massique)
+        if (self.cc_molaire!=0) & (self.cc_molaire_tex==""):
+            self.cc_molaire,self.cc_molaire_tex=convert_sci(self.cc_molaire)
+        if (self.volume_solution!=0) & (self.volume_solution_tex==""):
+            self.volume_solution,self.volume_solution_tex=convert_sci(self.volume_solution)
+        if (self.volume_gaz!=0) & (self.volume_gaz_tex==""):
+            self.volume_gaz,self.volume_gaz_tex=convert_sci(self.volume_gaz)
 
-class Exercice():
+class Exercice(object):
+    #placer les valeurs données
+    #créer le feedback pour données, inconnues, équations
+    #résoudre l'exercice
+    #créer le feedback pour le tableau dans une variable à part puis y ajouter le feedback données, inconnue, équations
+    #ajouter au feedback la résolution et la réponse finale
+    
+    
+    
     def __init__(self):
         self.enonce=""
         self.feedback=""
-        
+        self.dict_corps={}
         choix=random.randint(1,2)
         choix=3
         if choix==1 : self.exe_1()
@@ -96,148 +116,186 @@ class Exercice():
         if choix==4 : self.exe_4()
         if choix==5 : self.exe_5()
     
-    def valeurs(self):
-        #
-        self.valeurs={}
-        self.valeurs["R1_nom"]=""
-        self.valeurs["R1_form"]=""
-        self.valeurs["R1_moles"]=float()
-        self.valeurs["R1_masse"]=float()
-        self.valeurs["R1_masse_molaire"]=float()
-        self.valeurs["R1_cc_massique"]=float()
-        self.valeurs["R1_cc_molaire"]=float()
-        self.valeurs["R1_volume_solution"]=float()
-        self.valeurs["R1_volume_gaz"]=float()
-        self.valeurs["R1_coef"]=int()
-        
-        self.valeurs["R2_nom"]=""
-        self.valeurs["R2_form"]=""
-        self.valeurs["R2_moles"]=float()
-        self.valeurs["R2_masse"]=float()
-        self.valeurs["R2_masse_molaire"]=float()
-        self.valeurs["R2_cc_massique"]=float()
-        self.valeurs["R2_cc_molaire"]=float()
-        self.valeurs["R2_volume_solution"]=float()
-        self.valeurs["R2_volume_gaz"]=float()
-        self.valeurs["R2_coef"]=int()
-        
-        self.valeurs["R3_nom"]=""
-        self.valeurs["R3_form"]=""
-        self.valeurs["R3_moles"]=float()
-        self.valeurs["R3_masse"]=float()
-        self.valeurs["R3_masse_molaire"]=float()
-        self.valeurs["R3_cc_massique"]=float()
-        self.valeurs["R3_cc_molaire"]=float()
-        self.valeurs["R3_volume_solution"]=float()
-        self.valeurs["R3_volume_gaz"]=float()
-        self.valeurs["R3_coef"]=int()
-        
-        self.valeurs["P1_nom"]=""
-        self.valeurs["P1_form"]=""
-        self.valeurs["P1_moles"]=float()
-        self.valeurs["P1_masse"]=float()
-        self.valeurs["P1_masse_molaire"]=float()
-        self.valeurs["P1_cc_massique"]=float()
-        self.valeurs["P1_cc_molaire"]=float()
-        self.valeurs["P1_volume_solution"]=float()
-        self.valeurs["P1_volume_gaz"]=float()
-        self.valeurs["P1_coef"]=int()
-        
-        self.valeurs["P2_nom"]=""
-        self.valeurs["P2_form"]=""
-        self.valeurs["P2_moles"]=float()
-        self.valeurs["P2_masse"]=float()
-        self.valeurs["P2_masse_molaire"]=float()
-        self.valeurs["P2_cc_massique"]=float()
-        self.valeurs["P2_cc_molaire"]=float()
-        self.valeurs["P2_volume_solution"]=float()
-        self.valeurs["P2_volume_gaz"]=float()
-        self.valeurs["P2_coef"]=int()
-        
-        self.valeurs["P3_nom"]=""
-        self.valeurs["P3_form"]=""
-        self.valeurs["P3_moles"]=float()
-        self.valeurs["P3_masse"]=float()
-        self.valeurs["P3_masse_molaire"]=float()
-        self.valeurs["P3_cc_massique"]=float()
-        self.valeurs["P3_cc_molaire"]=float()
-        self.valeurs["P3_volume_solution"]=float()
-        self.valeurs["P3_volume_gaz"]=float()
-        self.valeurs["P3_coef"]=int()
+    def format_str(self,my_str,corps):
+        my_str=my_str.replace("{","$[")
+        my_str=my_str.replace("}","]$")
+        #my_str my_str
+        my_str=my_str.replace("@[","{")
+        my_str=my_str.replace("]@","}")
+        #my_str my_str
+        my_str=my_str.format(**corps.__dict__)
+        #my_str my_str
+        my_str=my_str.replace("$[","{")
+        my_str=my_str.replace("]$","}")
+        return my_str
     
-    def valeurs_to_tex(self):
-        for param,valeur in self.valeurs.items():
-             if (type(valeur)==float) & (valeur!=0):
-                 param_tex=param+"_tex"
-                 self.valeurs[param],self.valeurs[param_tex]=convert_sci(param)
     
-    def feedback(self):
-        self.feedback="<style>table {{border-collapse: collapse;border: 1px solid black;}} th, td {{border: 1px solid black;height:30px}}</style><p><table>"
-        self.feedback+="<tr>" #1° ligne : la réaction pondérée
-        self.feedback+="<td></td>"#la première cellule est vide
-        self.feedback+="<td>\({R1_coef} \\ {R1_form}\)</td>"
-        if self.valeurs["R2_form"]!="" :self.feedback+="<td>\({R2_coef} \\ {R2_form}\)</td>"
-        if self.valeurs["R3_form"]!="" :self.feedback+="<td>\({R3_coef} \\ {R3_form}\)</td>"
-        if self.valeurs["P1_form"]!="" :self.feedback+="<td>\(\\rightarrow \\ {P1_coef} \\ {P1_form}\)</td>" 
-        if self.valeurs["P2_form"]!="" :self.feedback+="<td>\({P2_coef} \\ {P2_form}\)</td>"
-        if self.valeurs["P3_form"]!="" :self.feedback+="<td>\({P3_coef} \\ {P3_form}\)</td>"
+    def feedback_do_in_eq(self):
+        self.feedback_donnees=""
+        self.feedback_donnees+="<p><b>Données</b><br/><br/>"
+        for corps in self.dict_corps.values():
+            feedback_tmp=""
+            if corps.masse_molaire!=0:
+                feedback_tmp+="\(M_{@[form]@}=@[masse_molaire]@ [g \cdot mol^{-1}]\)<br/><br/>"
+            if corps.masse!=0:
+                feedback_tmp+="\(m_{@[form]@}=@[masse_tex]@ [g]\)<br/><br/>"
+            if corps.cc_massique!=0:
+                feedback_tmp+="\(\gamma_{@[form]@}=@[cc_massique_tex]@ [g \cdot L^{-1}]\)<br/><br/>"
+            if corps.cc_molaire!=0:
+                feedback_tmp+="\(C_{M ~ @[form]@}=@[cc_molaire_tex]@ [mol \cdot L^{-1}]\)<br/><br/>"
+            if corps.volume_solution!=0:
+                feedback_tmp+="\(V_{sol ~ @[form]@}=@[volume_solution_tex]@ [L]\)<br/><br/>"
+            if corps.volume_gaz!=0:
+                feedback_tmp+="\(V_{gaz ~ @[form]@}=@[volume_gaz_tex]@ [L]\)<br/><br/>"
+            if feedback_tmp!= "" : self.feedback_donnees+=self.format_str(feedback_tmp,corps)
+        self.feedback_donnees+="</p><br/><br/>"
         
-        self.feedback+="</tr><tr><td>\(n[mol]\)</td>"#2° ligne : le nombre de mole
-        if self.valeurs["R1_moles_tex"]!="" :self.feedback+="<td>\({R1_moles_tex}\)</td>"
-        if self.valeurs["R2_moles_tex"]!="" :self.feedback+="<td>\({R2_moles_tex}\)</td>"
-        if self.valeurs["R3_moles_tex"]!="" :self.feedback+="<td>\({R3_moles_tex}\)</td>"
-        if self.valeurs["P1_moles_tex"]!="" :self.feedback+="<td>\({P1_moles_tex}\)</td>"
-        if self.valeurs["P2_moles_tex"]!="" :self.feedback+="<td>\({P2_moles_tex}\)</td>"
-        if self.valeurs["P3_moles_tex"]!="" :self.feedback+="<td>\({P3_moles_tex}\)</td>"
+        self.feedback_donnees+="<p><b>Inconnues</b><br/><br/>"
+        for corps in self.dict_corps.values():
+            feedback_tmp=""
+            if corps.reponse=="masse":
+                feedback_tmp+="\(m_{@[form]@}=? \\ [g]\)<br/><br/>"
+            elif corps.reponse=="sol_mas":
+                feedback_tmp+="\(\gamma_{@[form]@}=? \\ [g \cdot L^{-1}]\)<br/><br/>"
+            elif corps.reponse=="sol_mol":
+                feedback_tmp+="\(C_{M ~ @[form]@}=? \\ [mol \cdot L^{-1}]\)<br/><br/>"
+            elif corps.reponse=="gaz":
+                feedback_tmp+="\(V_{gaz ~ @[form]@}=? \\ [L]\)<br/><br/>"
+            if feedback_tmp!= "" : self.feedback_donnees+=self.format_str(feedback_tmp,corps)
+        self.feedback_donnees+="</p><br/><br/>"
         
-        self.feedback+="</tr><tr><td>\(m[g]\)</td>"#3° ligne : la masse
-        if self.valeurs["R1_masse_tex"]!="" :self.feedback+="<td>\({R1_masse_tex}\)</td>"
-        if self.valeurs["R2_masse_tex"]!="" :self.feedback+="<td>\({R2_masse_tex}\)</td>"
-        if self.valeurs["R3_masse_tex"]!="" :self.feedback+="<td>\({R3_masse_tex}\)</td>"
-        if self.valeurs["P1_masse_tex"]!="" :self.feedback+="<td>\({P1_masse_tex}\)</td>"
-        if self.valeurs["P2_masse_tex"]!="" :self.feedback+="<td>\({P2_masse_tex}\)</td>"
-        if self.valeurs["P3_masse_tex"]!="" :self.feedback+="<td>\({P3_masse_tex}\)</td>"
+        self.feedback_donnees+="<p><b>Équations</b><br/><br/>"
+        for corps in self.dict_corps.values():
+            feedback_tmp=""
+            if corps.donnee=="masse":
+                feedback_tmp+="\(n_{@[form]@}=\\frac{m_{@[form]@}}{M_{@[form]@}}\)<br/><br/>"
+            elif corps.donnee=="sol_mas":
+                feedback_tmp+="\(m= \gamma \cdot V_{sol} \\ et \\ n=\\frac{m}{M} \\ \\rightarrow \\ n_{@[form]@}=\\frac{\gamma{@[form]@} \cdot V_{sol ~ @[form]@} }{M_{@[form]@} }    \)<br/><br/>"
+            elif corps.donnee=="sol_mol":
+                feedback_tmp+="\(n_{@[form]@}=C_{M ~ @[form]@} \cdot V_{sol ~ @[form]@}\)<br/><br/>"
+            elif corps.donnee=="gaz":
+                feedback_tmp+="\(n_{@[form]@}=\\frac{V_{gaz ~ @[form]@}}{22,4}\)<br/><br/>"
+            
+            if corps.reponse=="masse":
+                feedback_tmp+="\(n=\\frac{m}{M} \\ \\rightarrow \\ m_{@[form]@}=n_{@[form]@} \cdot M_{@[form]@}\)<br/><br/>"
+            elif corps.reponse=="sol_mas":
+                feedback_tmp+="\(m=\gamma \cdot V_{sol} \\ et \\ n=\\frac{m}{M} \\ \\rightarrow \\ \gamma_{@[form]@}=\\frac{n_{@[form]@}   \cdot M_{@[form]@} } {V_{sol ~ @[form]@} }   \)<br/><br/>"
+            elif corps.reponse=="sol_mol":
+                feedback_tmp+="\(n=C_{M} \cdot V_{sol} \\ \\rightarrow \\ C_{M ~ @[form]@}=\\frac{n_{@[form]@}}{V_{sol ~ @[form]@}} \)<br/><br/>"
+            elif corps.reponse=="gaz":
+                feedback_tmp+="\(n=\\frac{V_{gaz} }{22,4} \\ \\rightarrow \\ V_{gaz ~ @[form]@}=n_{@[form]@} \cdot 22,4\)<br/><br/>"
+            
+            if feedback_tmp!= "" : self.feedback_donnees+=self.format_str(feedback_tmp,corps)
+        self.feedback_donnees+="</p><br/><br/>"
         
-        self.feedback+="</tr><tr><td>\(M[g \cdot mol^{{-1}}]\)</td>"#4° ligne : la masse molaire
-        if self.valeurs["R1_masse_molaire_tex"]!="" :self.feedback+="<td>\({R1_masse_molaire_tex}\)</td>"
-        if self.valeurs["R2_masse_molaire_tex"]!="" :self.feedback+="<td>\({R2_masse_molaire_tex}\)</td>"
-        if self.valeurs["R3_masse_molaire_tex"]!="" :self.feedback+="<td>\({R3_masse_molaire_tex}\)</td>"
-        if self.valeurs["P1_masse_molaire_tex"]!="" :self.feedback+="<td>\({P1_masse_molaire_tex}\)</td>"
-        if self.valeurs["P2_masse_molaire_tex"]!="" :self.feedback+="<td>\({P2_masse_molaire_tex}\)</td>"
-        if self.valeurs["P3_masse_molaire_tex"]!="" :self.feedback+="<td>\({P3_masse_molaire_tex}\)</td>"
         
-        self.feedback+="</tr><tr><td>\(C_{{M}}[mol \cdot L^{{-1}}]\)</td>"#5° ligne : la concentration molaire
-        if self.valeurs["R1_concentration_molaire_tex"]!="" :self.feedback+="<td>\({R1_cc_molaire_tex}\)</td>"
-        if self.valeurs["R2_concentration_molaire_tex"]!="" :self.feedback+="<td>\({R2_cc_molaire_tex}\)</td>"
-        if self.valeurs["R3_concentration_molaire_tex"]!="" :self.feedback+="<td>\({R3_cc_molaire_tex}\)</td>"
-        if self.valeurs["P1_concentration_molaire_tex"]!="" :self.feedback+="<td>\({P1_cc_molaire_tex}\)</td>"
-        if self.valeurs["P2_concentration_molaire_tex"]!="" :self.feedback+="<td>\({P2_cc_molaire_tex}\)</td>"
-        if self.valeurs["P3_concentration_molaire_tex"]!="" :self.feedback+="<td>\({P3_cc_molaire_tex}\)</td>"
+    def feedback_res_rep(self):
+        self.feedback_reponse=""
+        self.feedback_reponse+="<p><b>Résolution</b><br/><br/>"
+        for corps in self.dict_corps.values():
+            feedback_tmp=""
+            if corps.donnee=="masse":
+                feedback_tmp+="\(n_{@[form]@}=\\frac{m_{@[form]@}}{M_{@[form]@}} \\ \\rightarrow \\ n_{@[form]@}=\\frac{@[masse_tex]@}{@[masse_molaire]@} \\ \\rightarrow \\ n_{@[form]@}=@[moles_tex]@ [mol]\)<br/><br/>"
+                
+            
+            elif corps.donnee=="sol_mas":
+                feedback_tmp+="\(n_{@[form]@}=\\frac{\gamma{@[form]@} \cdot V_{sol ~ @[form]@} } {M_{@[form]@} } \\ \\rightarrow \\ n_{@[form]@}=\\frac{@[cc_massique_tex]@ \cdot @[volume_solution_tex]@ } {@[masse_molaire]@}  \\ \\rightarrow \\ n_{@[form]@}=@[moles_tex]@ [mol]\)<br/><br/>"
+            
+            elif corps.donnee=="sol_mol":
+                feedback_tmp+="\(n_{@[form]@}=C_{M ~ @[form]@} \cdot V_{sol ~ @[form]@} \\ \\rightarrow \\ n_{@[form]@}=@[cc_molaire_tex]@ \cdot @[volume_solution_tex]@ \\ \\rightarrow \\ n_{@[form]@}=@[moles_tex]@ [mol] \)<br/><br/>"
+            
+            elif corps.donnee=="gaz":
+                feedback_tmp+="\(n_{@[form]@}=\\frac{V_{gaz ~ @[form]@}}{22,4} \\ \\rightarrow \\ n_{@[form]@}=\\frac{@[volume_gaz_tex]@}{22,4} \\ \\rightarrow \\ n_{@[form]@}=@[moles_tex]@ [mol]\)<br/><br/>"
+            
+            if corps.donnee!= "" : self.feedback_reponse+=self.format_str(feedback_tmp,corps)
         
-        self.feedback+="</tr><tr><td>\(\gamma[g \cdot L^{{-1}}]\)</td>"#6° ligne : la concentration massique
-        if self.valeurs["R1_concentration_massique_tex"]!="" :self.feedback+="<td>\({R1_cc_massique_tex}\)</td>"
-        if self.valeurs["R2_concentration_massique_tex"]!="" :self.feedback+="<td>\({R2_cc_massique_tex}\)</td>"
-        if self.valeurs["R3_concentration_massique_tex"]!="" :self.feedback+="<td>\({R3_cc_massique_tex}\)</td>"
-        if self.valeurs["P1_concentration_massique_tex"]!="" :self.feedback+="<td>\({P1_cc_massique_tex}\)</td>"
-        if self.valeurs["P2_concentration_massique_tex"]!="" :self.feedback+="<td>\({P2_cc_massique_tex}\)</td>"
-        if self.valeurs["P3_concentration_massique_tex"]!="" :self.feedback+="<td>\({P3_cc_massique_tex}\)</td>"
+        for corps in self.dict_corps.values():
+            if corps.donnee!="":
+                coef_donnee=corps.coef
+                form_donnee=corps.form
+                moles_donnee=corps.moles_tex
         
-        self.feedback+="</tr><tr><td>\(V_{{sol}}[L]\)</td>"#7° ligne : le volume de solution
-        if self.valeurs["R1_volume_solution_tex"]!="" :self.feedback+="<td>\({R1_volume_solution_tex}\)</td>"
-        if self.valeurs["R2_volume_solution_tex"]!="" :self.feedback+="<td>\({R2_volume_solution_tex}\)</td>"
-        if self.valeurs["R3_volume_solution_tex"]!="" :self.feedback+="<td>\({R3_volume_solution_tex}\)</td>"
-        if self.valeurs["P1_volume_solution_tex"]!="" :self.feedback+="<td>\({P1_volume_solution_tex}\)</td>"
-        if self.valeurs["P2_volume_solution_tex"]!="" :self.feedback+="<td>\({P2_volume_solution_tex}\)</td>"
-        if self.valeurs["P3_volume_solution_tex"]!="" :self.feedback+="<td>\({P3_volume_solution_tex}\)</td>"
+        for corps in self.dict_corps.values():
+            feedback_tmp=""
+            if corps.reponse=="masse":
+                feedback_tmp+="\(n_{@[form]@}=\\frac{@[coef]@}{%s} \cdot n_{%s} \\ \\rightarrow \\ n_{@[form]@}=\\frac{@[coef]@}{%s} \cdot %s \\ \\rightarrow \\ n_{@[form]@}=@[moles_tex]@ [mol]\) <br/><br/>"%(coef_donnee,form_donnee,coef_donnee,moles_donnee)
+                feedback_tmp+="\(m_{@[form]@}=n_{@[form]@} \cdot M_{@[form]@} \\ \\rightarrow \\ m_{@[form]@}=@[moles_tex]@ \cdot @[masse_molaire]@ \\ \\rightarrow \\ m_{@[form]@}=@[masse_tex]@ [g]\)<br/><br/>"
+            
+            elif corps.reponse=="sol_mas":
+                feedback_tmp+="\(n_{@[form]@}=\\frac{@[coef]@}{%s} \cdot n_{%s} \\ \\rightarrow \\ n_{@[form]@}=\\frac{@[coef]@}{%s} \cdot %s \\ \\rightarrow \\ n_{@[form]@}=@[moles_tex]@ [mol]\) <br/><br/>"%(coef_donnee,form_donnee,coef_donnee,moles_donnee)
+                feedback_tmp+="\(\gamma_{@[form]@}=\\frac{n_{@[form]@}   \cdot M_{@[form]@} } {V_{sol ~ @[form]@} } \\ \\rightarrow \\  \gamma_{@[form]@}=\\frac{ @[moles_tex]@   \cdot @[masse_molaire]@ } {@[volume_solution_tex]@} \\ \\rightarrow \\ \gamma_{@[form]@}=@[cc_massique_tex]@ [g \cdot L^{-1}]\)<br/><br/>"
+            
+            elif corps.reponse=="sol_mol":
+                feedback_tmp+="\(n_{@[form]@}=\\frac{@[coef]@}{%s} \cdot n_{%s} \\ \\rightarrow \\ n_{@[form]@}=\\frac{@[coef]@}{%s} \cdot %s \\ \\rightarrow \\ n_{@[form]@}=@[moles_tex]@ [mol]\) <br/><br/>"%(coef_donnee,form_donnee,coef_donnee,moles_donnee)
+                feedback_tmp+="\(C_{M ~ @[form]@}=\\frac{n_{@[form]@} } {V_{sol ~ @[form]@} } \\ \\rightarrow \\  C_{M ~ @[form]@}=\\frac{ @[moles_tex]@ } {@[volume_solution_tex]@} \\ \\rightarrow \\ C_{M ~ @[form]@}=@[cc_molaire_tex]@ [mol \cdot L^{-1}]\)<br/><br/>"
+            
+            elif corps.reponse=="gaz":
+                feedback_tmp+="\(n_{@[form]@}=\\frac{@[coef]@}{%s} \cdot n_{%s} \\ \\rightarrow \\ n_{@[form]@}=\\frac{@[coef]@}{%s} \cdot %s \\ \\rightarrow \\ n_{@[form]@}=@[moles_tex]@ [mol]\) <br/><br/>"%(coef_donnee,form_donnee,coef_donnee,moles_donnee)
+                feedback_tmp+="\(V_{gaz ~ @[form]@}=n_{@[form]@} \cdot 22,4 \\ \\rightarrow \\ V_{gaz ~ @[form]@}=@[moles_tex]@ \cdot 22,4 \\ \\rightarrow \\ V_{gaz ~ @[form]@}=@[volume_gaz_tex]@ [L]\)<br/><br/>"
+            
+            if corps.reponse!= "" : self.feedback_reponse+=self.format_str(feedback_tmp,corps)
         
-        self.feedback+="</tr><tr><td>\(V_{{gaz}}[L]\)</td>"#8° ligne : le volume gazeux
-        if self.valeurs["R1_volume_gaz_tex"]!="" :self.feedback+="<td>\({R1_volume_gaz_tex}\)</td>"
-        if self.valeurs["R2_volume_gaz_tex"]!="" :self.feedback+="<td>\({R2_volume_gaz_tex}\)</td>"
-        if self.valeurs["R3_volume_gaz_tex"]!="" :self.feedback+="<td>\({R3_volume_gaz_tex}\)</td>"
-        if self.valeurs["P1_volume_gaz_tex"]!="" :self.feedback+="<td>\({P1_volume_gaz_tex}\)</td>"
-        if self.valeurs["P2_volume_gaz_tex"]!="" :self.feedback+="<td>\({P2_volume_gaz_tex}\)</td>"
-        if self.valeurs["P3_volume_gaz_tex"]!="" :self.feedback+="<td>\({P3_volume_gaz_tex}\)</td>"
-        self.feedback+="</tr>"
+        self.feedback_reponse+="</p><br/><br/>"
+        
+        self.feedback_reponse+="<p><b>Réponses</b><br/><br/>"
+        for corps in self.dict_corps.values():
+            feedback_tmp=""
+            if corps.reponse=="masse":
+                feedback_tmp+="La masse de \(@[form]@\) vaut : \(m_{@[form]@}=@[masse_tex]@ [g]\)<br/><br/>"
+            
+            elif corps.reponse=="sol_mas":
+                feedback_tmp+="La concentration massique de \(@[form]@\) vaut : \(\gamma_{@[form]@}=@[cc_massique_tex]@ [g \cdot L^{-1}]\)<br/><br/>"
+            
+            elif corps.reponse=="sol_mol":
+                feedback_tmp+="La concentration molaire de \(@[form]@\) vaut : \(C_{M ~ @[form]@}=@[cc_molaire_tex]@ [mol \cdot L^{-1}]\)<br/><br/>"
+            
+            elif corps.reponse=="gaz":
+                feedback_tmp+="Le volume gazeux CNTP de \(@[form]@\) vaut : \(V_{gaz ~ @[form]@}=@[volume_gaz_tex]@ [L]\)<br/><br/>"
+            
+            if corps.reponse!= "" : self.feedback_reponse+=self.format_str(feedback_tmp,corps)
+        
+        self.feedback_reponse+="</p>"
+        
+        
+        
+        
+    
+    
+    def fct_feedback_table(self):
+        dict_param={"form":"","moles_tex":"moles [mol]","masse_molaire":"M [g \cdot mol^{-1}]","masse_tex":"m [g]","cc_massique_tex":"\gamma [g \cdot L^{-1}]","cc_molaire_tex":"C_M [mol \cdot L^{-1}]","volume_solution_tex":"V_{sol} [L]","volume_gaz_tex":"V_{gaz} [L]"}
+        self.feedback_table=""
+        self.feedback_table+="<style>table {border-collapse: collapse;border: 1px solid black;} th, td {border: 1px solid black;height:30px}</style>"
+        self.feedback_table+="<p><table>"
+        
+        for parametre in ["form","moles_tex","masse_molaire","masse_tex","cc_massique_tex","cc_molaire_tex","volume_solution_tex","volume_gaz_tex"]:
+            self.feedback_table+="<tr>"
+            for corps in ["param","R1","R2","R3","fleche","P1","P2","P3"]:
+                if parametre=="form":
+                    
+                    if corps=="param":#pour la 1°colonne
+                        self.feedback_table+="<td></td>"
+                    elif corps=="fleche":
+                        self.feedback_table+="<td> \( \\rightarrow \) </td>"
+                        
+                    else :
+                        if corps in self.dict_corps.keys():
+                            self.feedback_table+="<td> \("
+                            if corps not in ["R1","P1"]:self.feedback_table+=" + \\ "
+                            self.feedback_table+=" %s \\ %s \) </td>"%(getattr(self.dict_corps[corps],"coef"),getattr(self.dict_corps[corps],"form"))
+                else:
+                    if corps=="param":#pour la 1°colonne
+                        self.feedback_table+="<td>\( %s \)</td>"%dict_param[parametre]
+                    elif corps=="fleche":
+                        self.feedback_table+="<td> </td>"
+                    else :
+                        if corps in self.dict_corps.keys():
+                            self.feedback_table+="<td> \( %s \) </td>"%getattr(self.dict_corps[corps],parametre)
+            self.feedback_table+="</tr>"
+        self.feedback_table+="</table></p>"
+        
+        
+        
+        
         
         
     #
@@ -391,38 +449,72 @@ class Exercice():
         #3O2+4B=>2B2O3
         #solubilité de B203=36g/L
         
-        self.valeurs={}
+        self.R1=Corps()
+        self.R2=Corps()
+        self.P1=Corps()
+        #self.liste_corps=[self.R1,self.R2,self.P1]
+        self.dict_corps["R1"]=self.R1
+        self.dict_corps["R2"]=self.R2
+        self.dict_corps["P1"]=self.P1
         
-        self.valeurs["P1_nom"]="oxyde de bore"
-        self.valeurs["P1_form"]="B_{2}O_{3}"
-        self.valeurs["P1_masse"]=float(random.randint(30,300))/100
-        self.valeurs["P1_masse_molaire"]=70
-        self.valeurs["P1_moles"]=self.valeurs["P1_masse"]/self.valeurs["P1_masse_molaire"]
-        self.valeurs["P1_coef"]=2
-        self.valeurs["P1_cc_massique"]=float(random.randint(10,36))
-        self.valeurs["P1_volume_solution"]=self.valeurs["P1_masse"]/self.valeurs["P1_cc_massique"]
+        self.P1.nom="oxyde de bore"
+        self.P1.form="B_{2}O_{3}"
+        self.P1.categorie="R1"
+        self.P1.donnee="sol_mas"
+        masse=float(random.randint(30,300))/100
+        self.P1.masse_molaire=70
+        #self.P1.moles=P1.masse/P1.masse_molaire
+        self.P1.coef=2
+        self.P1.cc_massique=float(random.randint(10,36))
+        self.P1.volume_solution=masse/self.P1.cc_massique
         
-        self.valeurs["R1_nom"]="dioxygène"
-        self.valeurs["R1_form"]="O_{2}"
-        self.valeurs["R1_moles"]=(self.valeurs["P1_moles"]/2)*3
-        self.valeurs["R1_volume_gaz"]=self.valeurs["R1_moles"]*22.4
-        self.valeurs["R1_coef"]=3
         
-        self.valeurs["R2_nom"]="bore"
-        self.valeurs["R2_form"]="B"
-        self.valeurs["R2_masse_molaire"]=11
-        self.valeurs["R2_moles"]=self.valeurs["P1_moles"]*2
-        self.valeurs["R2_masse"]=self.valeurs["R2_moles"]*self.valeurs["R2_masse_molaire"]
-        self.valeurs["R2_coef"]=4
+        self.R1.nom="dioxygène"
+        self.R1.form="O_{2}"
+        self.R1.coef=3
+        self.R1.reponse="gaz"
         
-        self.valeurs_to_tex()
+        self.R2.nom="bore"
+        self.R2.form="B"
+        self.R2.masse_molaire=11
+        self.R2.coef=4
+        self.R2.reponse="masse"
         
-        self.enonce="<p>On souhaite produire \({P1_volume_solution_tex} [L]\) d'une solution \({P1_cc_massique_tex} [g \cdot L^{{-1}}]\) d'oxyde de bore, quelle masse de bore et quel volume CNTP de dioxygène faut-il utiliser?</p>"
-        self.enonce+="<p>\(m_{{B}} \)={{2:NUMERICAL:={R2_masse}:%s}}"%self.valeurs["R2_masse"]*3/100
-        self.enonce+="{1:MC:[g/mol]~[mol]~=[g]~[L]~[g/L]~[mol/L]}</p>"
-        self.enonce+="<p>\( V_{{O_2}}\)={{2:NUMERICAL:={R1_volume_gaz}:%s}}"%self.valeurs["R1_volume_gaz"]*3/100
-        self.enonce+="{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p>"
-        self.enonce.format(**self.valeur)
+        for corps in self.dict_corps.values():
+            corps.valeurs_to_tex()
+        #self.R1.valeurs_to_tex()
+        #self.R2.valeurs_to_tex()
+        #self.P1.valeurs_to_tex()
+        
+        self.feedback_do_in_eq()
+        for corps in self.dict_corps.values():
+            if corps.donnee!="":
+                corps.resoudre()
+                corps.valeurs_to_tex()
+                mole_1=corps.moles/corps.coef
+        
+        for corps in self.dict_corps.values():
+            if corps.reponse!="":
+                corps.moles=mole_1*corps.coef
+                corps.resoudre()
+                corps.valeurs_to_tex()
+            
+        
+        self.feedback_res_rep()
+        
+        self.feedback_donnees+=self.feedback_reponse
+        self.fct_feedback_table()
+            
+        print(self.feedback_table)
+        #print(self.feedback_donnees)
+        
+        
+        #self.enonce="<p>On souhaite produire \({P1_volume_solution_tex} [L]\) d'une solution \({P1_cc_massique_tex} [g \cdot L^{{-1}}]\) d'oxyde de bore, quelle masse de bore et quel volume CNTP de dioxygène faut-il utiliser?</p>"
+        #self.enonce+="<p>\(m_{{B}} \)={{2:NUMERICAL:={R2_masse}:%s}}"%self.valeurs["R2_masse"]*3/100
+        #self.enonce+="{1:MC:[g/mol]~[mol]~=[g]~[L]~[g/L]~[mol/L]}</p>"
+        #self.enonce+="<p>\( V_{{O_2}}\)={{2:NUMERICAL:={R1_volume_gaz}:%s}}"%self.valeurs["R1_volume_gaz"]*3/100
+        #self.enonce+="{1:MC:[g/mol]~[mol]~[g]~=[L]~[g/L]~[mol/L]}</p>"
+        #self.enonce.format(**self.valeur)
         
         
         
@@ -531,7 +623,7 @@ if __name__=="__main__":
      liste_molec=[]
      
      
-     for i in range(10):
+     for i in range(1):
          exercice=Exercice()
          questionnaire.append(exercice)
      
